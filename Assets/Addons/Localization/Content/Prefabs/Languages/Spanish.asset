@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 696b429a28c5fa743babb85aee900909, type: 3}
+  m_Name: Spanish
+  m_EditorClassIdentifier: 
+  LanguageName: "Espa\xF1ol"
+  PlurarLetter: s
+  LanguageIcon: {fileID: 21300000, guid: a07bf790031cc6f4cb6263422880a3cc, type: 3}
+  Data:
+  - StringID: playername
+    Text: Nombre del jugador
+  - StringID: norooms
+    Text: AUN NO HAY PARTIDAS CREADAS, CREA UNA.
+  - StringID: tdm
+    Text: Partida de Equipos
+  - StringID: ffa
+    Text: Todos para Todos
+  - StringID: ctf
+    Text: Capturar la bandera
+  - StringID: player
+    Text: Jugador
+  - StringID: snd
+    Text: Buscar y Destruir
+  - StringID: cp
+    Text: Controlar Puntos
+  - StringID: gr
+    Text: Juego de Armas
+  - StringID: lms
+    Text: "\xDAltimo Hombre En Pie"
+  - StringID: pickmedic
+    Text: "Recoger Botiqu\xEDn"
+  - StringID: pckammo
+    Text: "Recoger Munici\xF3n"
+  - StringID: pickgun
+    Text: Presiona {1} para recoger <color=#70ABFF>{0}</color>
+  - StringID: pickguneq
+    Text: <color=#70ABFF>{0}</color> ya esta equipada
+  - StringID: playerstar
+    Text: JUGADOR ESTRELLA:\n<size=14><color=black>{0}</color></size>
+  - StringID: killed
+    Text: Eliminado
+  - StringID: headshot
+    Text: HeadShot
+  - StringID: joinmatch
+    Text: Se ha unido a la partida
+  - StringID: leftmatch
+    Text: A salido de la partida
+  - StringID: commitsuicide
+    Text: "Cometi\xF3 suicidio"
+  - StringID: deathfall
+    Text: "Muerte por ca\xEDda"
+  - StringID: killedenemy
+    Text: Enemigo Eliminado
+  - StringID: hsbonus
+    Text: Bono Por Disparo a la Cabeza
+  - StringID: joinin
+    Text: Se unio a
+  - StringID: plawinning
+    Text: MEJOR JUGADOR:\n<size=10><color=black>{0} | {1}/{2}</color></size>
+  - StringID: nolimit
+    Text: Sin Limite
+  - StringID: spectating
+    Text: Observadores
+  - StringID: killinaction
+    Text: MUERTO EN COMBATE
+  - StringID: '[server]'
+    Text: '[Servidor]'
+  - StringID: openchatkey
+    Text: '[Servidor]: Presiona ''T'' o ''Y'' para abrir el chat.'
+  - StringID: noone
+    Text: Nadie
+  - StringID: youafk
+    Text: "Se te ha detectado AFK, saldr\xE1s de la partida en: {0}"
+  - StringID: returnlobby
+    Text: Regresando a la sala en
+  - StringID: nextround
+    Text: Siguiente Ronda en
+  - StringID: wonthisround
+    Text: Gano esta ronda
+  - StringID: totalscore
+    Text: Puntaje Total
+  - StringID: spectcount
+    Text: <b>{0}</b> Observadores
+  - StringID: waitingpla
+    Text: ESPERANDO A JUGADORES <b>{0} OF {1}</b>
+  - StringID: respawnin
+    Text: REAPARECIENDO EN
+  - StringID: loadlocalcon
+    Text: CARGANDO CONTENIDO LOCAL...
+  - StringID: connectserver
+    Text: CONECTANDO AL SERVIDOR...
+  - StringID: cantconnect
+    Text: '<size=25><b>VAYA!</b></size>\nNO HEMOS PODIDO CONTACTAR AL SERVIDOR.\nCAUSA:
+      {0}'
+  - StringID: flagcapture
+    Text: A Capturado la Bandera
+  - StringID: gettheflag
+    Text: Obtuvo la bandera de {0}
+  - StringID: covercount
+    Text: 'Punto Cubierto en: <b>{0}</b>'
+  - StringID: auto
+    Text: AUTO
+  - StringID: single
+    Text: UNICO
+  - StringID: semi
+    Text: SEMI
+  - StringID: roomscreate
+    Text: <b>Partidas Creadas:</b> {0}
+  - StringID: plaonline
+    Text: <b>Jugadores en linea:</b> {0}
+  - StringID: plaplaying
+    Text: <b>Jugadores jugando:</b> {0}
+  - StringID: plainlobby
+    Text: <b>Jugadores en sala:</b> {0}
+  - StringID: haskicked
+    Text: '{0} A sido expulsado!'
+  - StringID: notkicked
+    Text: '{0} No ha sido expulsado!'
+  - StringID: voteby
+    Text: 'Votando a: {0}'
+  - StringID: kick?
+    Text: Expulsar '{0}'?
+  - StringID: youvote
+    Text: Votaste {0}
+  - StringID: kill
+    Text: "Eliminaci\xF3n"
+  - StringID: death
+    Text: Muerte
+  - StringID: score
+    Text: Puntaje
+  - StringID: timeplay
+    Text: Tiempo Jugado
+  - StringID: winmatch
+    Text: 'Partida Ganada: +{0}'
+  - StringID: continue
+    Text: Continuar
+  - StringID: play
+    Text: Jugar
+  - StringID: search
+    Text: Buscar
+  - StringID: createserver
+    Text: Crear
+  - StringID: wrseckey
+    Text: "Escribe la contra\xF1a de esta cuenta"
+  - StringID: cancel
+    Text: Cancelar
+  - StringID: servname
+    Text: Nombre del Servidor
+  - StringID: map
+    Text: Mapa
+  - StringID: mode
+    Text: Modo
+  - StringID: goal
+    Text: Meta
+  - StringID: maxping
+    Text: Ping Maximo
+  - StringID: state
+    Text: Estado
+  - StringID: hostroom
+    Text: Nombre de la Sala
+  - StringID: maxplayers
+    Text: Maximos Jugadores
+  - StringID: roundtime
+    Text: Tiempo de las rondas
+  - StringID: gm
+    Text: Modo de Juego
+  - StringID: rounds
+    Text: Rondas
+  - StringID: maxkills
+    Text: Maximos Kills
+  - StringID: gampround
+    Text: Juegos Por Rondas
+  - StringID: autesele
+    Text: Seleccion automatica de equipos
+  - StringID: friendfire
+    Text: Fuego Amigo
+  - StringID: withbot
+    Text: Incluir Bots
+  - StringID: create
+    Text: Crear
+  - StringID: volume
+    Text: Volumen
+  - StringID: sensiti
+    Text: Sensibilidad
+  - StringID: aimsensi
+    Text: Sensibilidad al Apuntar
+  - StringID: fovweapon
+    Text: Enfoque del arma
+  - StringID: shofrarate
+    Text: Mostrar FPS
+  - StringID: invmouver
+    Text: Invertir Mouse Vertical
+  - StringID: invmouhor
+    Text: Invertir Mouse Horizontal
+  - StringID: mutvoichat
+    Text: Mutear chat de voz
+  - StringID: pustotalk
+    Text: Pulsar para hablar
+  - StringID: save
+    Text: Guardar
+  - StringID: reset
+    Text: Resetear
+  - StringID: backvol
+    Text: Volumen de fondo
+  - StringID: chroaber
+    Text: Aberracion Cromatica
+  - StringID: antiali
+    Text: Anti Aliasing
+  - StringID: bloom
+    Text: Bloom
+  - StringID: motiblur
+    Text: Desenfoque de movimiento
+  - StringID: enable
+    Text: Habilitar
+  - StringID: disable
+    Text: Desabilitar
+  - StringID: forceenable
+    Text: Forzado
+  - StringID: quality
+    Text: Calidad
+  - StringID: anisofil
+    Text: Filtro Anisotropico
+  - StringID: minute
+    Text: Minuto
+  - StringID: offline
+    Text: Desconectado
+  - StringID: online
+    Text: Conectado
+  - StringID: ping
+    Text: Ping
+  - StringID: yes
+    Text: Si
+  - StringID: no
+    Text: No
+  - StringID: areusulega
+    Text: Estas seguro de que quieres salir del juego?
+  - StringID: friend
+    Text: Amigo
+  - StringID: resume
+    Text: Resumen
+  - StringID: scorboard
+    Text: Marcador
+  - StringID: settings
+    Text: Opciones
+  - StringID: changteam
+    Text: Cambiar equipo
+  - StringID: join
+    Text: Unirse
+  - StringID: teamname
+    Text: Nombre del Equipo
+  - StringID: suicide
+    Text: Suicidarse
+  - StringID: leavroom
+    Text: Dejar la Sala
+  - StringID: spectator
+    Text: Observador
+  - StringID: send
+    Text: Enviar
+  - StringID: gamresume
+    Text: Resumen del juego
+  - StringID: selettobg
+    Text: Balanceando los equipos...
+  - StringID: kills
+    Text: Eliminaciones
+  - StringID: spawprotdi
+    Text: "Protecci\xF3n desactivada en: <b>{0}</b>"
+  - StringID: waifbtp
+    Text: "Esperando a m\xE1s jugadores"
+  - StringID: killedby
+    Text: 'Eliminado Por:'
+  - StringID: joining
+    Text: Uniendose...
+  - StringID: lea
+    Text: Dejando la Partida...
+  - StringID: pinghigh
+    Text: Tu Ping es muy alto!
+  - StringID: shop
+    Text: TIENDA
+  - StringID: clan
+    Text: CLAN
+  - StringID: operator
+    Text: Operadores
+  - StringID: start
+    Text: Iniciar
+  - StringID: leave
+    Text: Salir
+  - StringID: rememberme
+    Text: RECUERDAME
+  - StringID: targetfrrt
+    Text: TAZA DE ACTUALIZACION
+  - StringID: elim
+    Text: Eliminacion
+  - StringID: dm
+    Text: Demolicion
+  - StringID: private
+    Text: Privado
+  - StringID: pass
+    Text: "Contrase\xF1a"
+  - StringID: lang
+    Text: Idioma
+  - StringID: general
+    Text: General
+  - StringID: graphics
+    Text: "Gr\xE1ficos"
+  - StringID: audio
+    Text: Audio
+  - StringID: control
+    Text: Controlar
+  - StringID: refreshrt
+    Text: "Frecuencia de actualizaci\xF3n"
+  - StringID: wpfov
+    Text: "Proyecci\xF3n de armas"
+  - StringID: apply
+    Text: Aplicar
+  - StringID: revert
+    Text: Revertir
+  - StringID: devinsour
+    Text: FUENTE DE ENTRADA DEL DISPOSITIVO
+  - StringID: damage
+    Text: "Da\xF1o"
+  - StringID: firerate
+    Text: Velocidad de fuego
+  - StringID: accuracy
+    Text: "Precisi\xF3n"
+  - StringID: weight
+    Text: Peso
+  - StringID: buy
+    Text: Comprar
+  - StringID: primary
+    Text: Principal
+  - StringID: owned
+    Text: Adquirida
+  - StringID: inventory
+    Text: Inventario
+  - StringID: coins
+    Text: Monedas
+  - StringID: newtext
+    Text: Nuevo Texto
+  - StringID: youwannapurchase
+    Text: Quieres Comprar
+  - StringID: for
+    Text: Por
+  - StringID: itempurchase
+    Text: Articulo Adquirido
+  - StringID: ok
+    Text: Ok
+  - StringID: youdonthaveeno
+    Text: No tienes suficientes monedas para realizar esta compra
+  - StringID: buycoins
+    Text: Comprar Monedas.
+  - StringID: loading
+    Text: Cargando
+  - StringID: category
+    Text: "Categor\xEDa"
+  - StringID: weapon
+    Text: Arma
+  - StringID: weaponcamo
+    Text: Camuflaje de armas
+  - StringID: playerskin
+    Text: Piel de jugador
+  - StringID: home
+    Text: Inicio
+  - StringID: serverlist
+    Text: Servidores
+  - StringID: tutorial
+    Text: Tutorial
+  - StringID: options
+    Text: Opciones
+  - StringID: logout
+    Text: "Cerrar sesi\xF3n"
+  - StringID: quit
+    Text: Salir
+  - StringID: loadout
+    Text: Equipamiento
+  - StringID: playerclass
+    Text: Clase
+  - StringID: startinggame
+    Text: Iniciando Partida
+  - StringID: ready
+    Text: Listo
+  - StringID: waitingforpla
+    Text: Esperando Jugadores
+  - StringID: confirmleave
+    Text: Estas seguro de que quieres dejar esta partida?
+  - StringID: viewmode
+    Text: Mode de vista
+  - StringID: showping
+    Text: Mostrar Ping
+  - StringID: barraks
+    Text: Barracones
+  - StringID: customlayout
+    Text: Personalizar Botones
+  - StringID: inputmapping
+    Text: Mapeado de Botones
+  - StringID: modify
+    Text: Modificar
+  - StringID: change
+    Text: Cambiar
+  - StringID: profile
+    Text: Perfil
+  - StringID: level
+    Text: Nivel
+  - StringID: ranking
+    Text: "Clasificaci\xF3n"
+  - StringID: multiplesessions
+    Text: "Esta cuenta tiene otra sesi\xF3n iniciada en este momento."
+  - StringID: finishingup
+    Text: TERMINANDO...
+  - StringID: verifyingsession
+    Text: VERIFICANDO SESION....
+  - StringID: changeregion
+    Text: Cambiar de region?
+  - StringID: progress
+    Text: Progreso
+  - StringID: badge
+    Text: Insignia
+  - StringID: avatar
+    Text: Avatar
+  - StringID: callingcard
+    Text: Tarjeta de llamada
+  - StringID: clantag
+    Text: Clan Tag
+  - StringID: emblem
+    Text: Emblema
+  - StringID: opendoor
+    Text: Abrir Puerta
+  - StringID: closedoor
+    Text: Cerrar Puerta
+  - StringID: leavroomconf
+    Text: Esta seguro de dejar esta sala?
+  - StringID: kf
+    Text: Muerte Confirmada
+  - StringID: enterasspect
+    Text: Entrar como espectador
+  - StringID: 
+    Text: Muerte Confirmada
+  - StringID: voucher
+    Text: Voucher
+  - StringID: unlock
+    Text: Desbloquear
+  - StringID: displaymode
+    Text: Modo de pantalla
+  - StringID: resolution
+    Text: "Resoluci\xF3n"

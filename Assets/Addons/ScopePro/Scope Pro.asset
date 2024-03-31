@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a776487618c5eca41bfe2a54260297f7, type: 3}
+  m_Name: Scope Pro
+  m_EditorClassIdentifier: 
+  Name: Scope Pro
+  Version: 1.3.0
+  MinMFPSVersion: 1.9
+  Instructions: "<b>Get Started:</b>\r\n\r\n- After import the asset in your MFPS
+    project in order to test the scopes you can use the player prefab\r\n  that comes
+    in the asset folder, located in: Assets -> Addons -> ScopePro -> Resources ->
+    MPlayer[ScopePro],\r\n  set this player as one of the players in GameData of
+    MFPS, then play the game and check the Rifle and the Sniper weapon.\r\n  \r\n<b>-
+    Add Scope Pro to a sniper:\r</b>\n  in order to add the sniper scope effect to
+    a new sniper, first drag the prefab 'ScopeProSetup' inside (in hierarchy) of
+    your FPSniper,\r\n the prefab is located in: Assets -> Addons -> ScopePro ->
+    Prefabs -> ScopeProSetup, \r\n   \r\n   - In the ScopeProSetup object will be
+    a bl_SniperScopeSetup.cs script attached, in this you need assign the player
+    camera in the \"Player Camera\" field.\r\n  - Your weapon model should have a
+    Scope/glass separated mesh, you have to drag this mesh to bl_SniperScopeSetup
+    -> Normal Mesh and them click on \"Setup Scope\".\r\n  - Now in the weapon where
+    bl_Gun.cs script is attached, add the script bl_ScopeProWeapon.cs\r\n\r\n  -if
+    you want to change the scope texture, you can change the scope material in the
+    Squad mesh located in: ScopePro -> ScopeCamera -> Texture.\r\n\r\n<b>- Add reflex
+    material:\r</b>\n  Create a new material and select the shader MFPS -> Sights
+    -> Red Dot.\r\n  and assign a red dot texture.\r\n  In your sight model, select
+    the glass separated mesh and add the material\r\n  play with the shader properties
+    until you get the desired results."
+  TutorialScript: ScopeProDocumentation

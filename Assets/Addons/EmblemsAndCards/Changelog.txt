@@ -1,0 +1,21 @@
+Emblems and Calling Cards
+Version 1.0.5
+
+Change Log:
+
+1.0.5
+Fix: The kill cam pro shows the local player's name instead of the enemy's name as the killer.
+Improved: Now the Equip button won't show when select the card/emblem that is already equipped.
+
+1.0.4
+Fix: Kill Camera Pro did not spectate players in Elimination game mode.
+
+1.0.3
+Improved: Now emblems or cards market as 'Hidden' in the Unlockability info won't show in the UI list selector.
+
+1.0.2
+Change: Now the addon required to be enabled in order to add compatibility with other addons.
+Fix: Coins are shown for items that can only be unlocked by level.
+
+1.0.0
+Initial Release

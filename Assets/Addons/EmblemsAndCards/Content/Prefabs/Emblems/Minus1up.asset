@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ec657eba5e24d93101199e182060, type: 3}
+  m_Name: Minus1up
+  m_EditorClassIdentifier: 
+  Emblem: {fileID: 2800000, guid: a6b6f7b2dd91fd149804ac84dd564154, type: 3}
+  BackgroundColor: {r: 0.09411765, g: 0.09411765, b: 0.09411765, a: 1}
+  OutlineColor: {r: 0.6216676, g: 0.9433962, b: 0.56514776, a: 0.31764707}
+  VignetteColor: {r: 0, g: 0, b: 0, a: 0}
+  Size: 1
+  Unlockability:
+    UnlockMethod: 1
+    ItemType: 4
+    Price: 50
+    UnlockAtLevel: 0
+    NoAllowedCoins: 01000000

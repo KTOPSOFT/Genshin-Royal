@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a776487618c5eca41bfe2a54260297f7, type: 3}
+  m_Name: Shop
+  m_EditorClassIdentifier: 
+  Name: Shop
+  Version: 1.2.3
+  MinMFPSVersion: 1.9.1
+  Instructions: "<b>Require:</b>\n\n\u25BAULogin Pro v2.0.0++\r\n\n<b>Optional:</b>\n\n\u25BAClass
+    Customization 1.7.5++\n\u25BAPlayer Selector 1.7++ \n\u25BACustomizer 1.9++\n\u25BAEmblems
+    and Calling Card 1.0.2++\n\r\n<b>Get Started:</b>\n\n\r\u25A0 First, be sure
+    to have Imported, enabled, and Integrated ULogin Pro addon in your MFPS project.\n\n\r\u25A0
+    Enable Shop addon, go to the editor top navigation menu \u2794 MFPS \u2794 Addons
+    \u2794 Shop \u2794 <b>Enable</b>\r\n\n\r\u25A0 Integrate in the MainMenu scene,
+    go to MFPS \u2794 Addons \u2794 Shop \u2794 <b>Integrate</b>.\r\n\n\r\u25A0 Open
+    the documentation for the server setup, go to MFPS \u2794 Tutorials \u2794 <b>Shop</b>
+    \u2794 Integrate.\n\n<b>Payments:</b>\n\nIf you are using one of the payments
+    extensions you will find the files in the 'Payment' folder under the Shop Addon
+    Folder."
+  TutorialScript: ShopAddonDocumentation

@@ -1,0 +1,9 @@
+1.0.5
+Fix: Error when tried to purchase a coin pack without open the shop window.
+
+1.0.4
+Fix: Can't make coin purchases when open the coin pack window with the top bar button (+) and a warning log is throw.
+
+1.0.3
+Add compatibility with MFPS 1.9
+Support for multiple virtual coins

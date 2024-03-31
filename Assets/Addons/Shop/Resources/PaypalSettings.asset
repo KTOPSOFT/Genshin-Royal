@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d54b9706c0d79e46a018f444c27575c, type: 3}
+  m_Name: PaypalSettings
+  m_EditorClassIdentifier: 
+  clientID: 
+  clientSecret: 
+  sandBoxMode: 1
+  currencyCode: 24
+  redirectURL: https://www.lovattostudio.com/demo/ulogin-system-pro/v2/payment-done.php
+  cancelURL: 
+  bussinesName: Lovatto Studio

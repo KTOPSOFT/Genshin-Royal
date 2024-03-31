@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a776487618c5eca41bfe2a54260297f7, type: 3}
+  m_Name: Level Manager
+  m_EditorClassIdentifier: 
+  Name: Level Manager
+  Version: 1.5.1
+  MinMFPSVersion: 1.9
+  Instructions: "<b>Require:\r</b>\n\nULogin Pro v1.4.5++\r\n\r\n<b>Get Started:</b>\n\r\n\u25A0
+    Import the package in the MFPS 2.0 project with ULogin Pro already installed.\n\r\n\u25A0
+    In toolbar go to MFPS -> Addons -> LevelManager -> <b>Enable</b>\n\n\u25A0 Then
+    MFPS -> Addons -> LevelManager -> <b>Integrate</b>\nNow you have installed Level
+    System.\r\n\n\n<b>Documentation</b> at: MFPS -> Tutorials -> Level Manager."
+  TutorialScript: LevelSystemDocumentation

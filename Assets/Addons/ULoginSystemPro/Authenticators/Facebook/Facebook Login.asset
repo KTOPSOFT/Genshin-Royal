@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a776487618c5eca41bfe2a54260297f7, type: 3}
+  m_Name: Facebook Login
+  m_EditorClassIdentifier: 
+  Name: Facebook Login
+  Version: 1.0
+  MinMFPSVersion: 1.8
+  Instructions: "<b>Requires:</b> \r\n\r\nULogin Pro 1.9++\r\n\r\nWith <b>Facebook
+    Login</b> for ULogin Pro you can allow users to authenticate or create ULogin
+    accounts with their Facebook accounts using the Facebook <b>Web API</b> or the
+    <b>Facebook SDK for Unity</b>.\r\n\r\nYou\u2019ll be up and running in minutes.\r\n\r\n<b>Get
+    Started:</b>\n\n- Follow the build-in documentation in the Unity Editor <b>MFPS
+    -> Tutorials -> ULogin Facebook</b>."
+  TutorialScript: ULoginFacebookDoc

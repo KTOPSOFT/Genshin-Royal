@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 159b7637bb7770742bbf291f1fcea39d, type: 3}
+  m_Name: Localization
+  m_EditorClassIdentifier: 
+  DefaultLanguage:
+    LanguageName: English
+    Text: {fileID: 11400000, guid: 247d9119deb243b4b82610855765b5c9, type: 2}
+  Languages:
+  - LanguageName: English
+    Text: {fileID: 11400000, guid: 247d9119deb243b4b82610855765b5c9, type: 2}
+  - LanguageName: "Espa\xF1ol"
+    Text: {fileID: 11400000, guid: e41d44327e1f74242aabc7ca5b3ef5de, type: 2}
+  - LanguageName: "\u7E41\u9AD4\u4E2D\u6587"
+    Text: {fileID: 11400000, guid: 5e3dd964d508f9d46863c3f89ad4fac0, type: 2}
+  - LanguageName: "Portugu\xEAs"
+    Text: {fileID: 11400000, guid: e1ac61a7ae06e7e41bf95953b99ebea5, type: 2}
+  - LanguageName: "Fran\xE7aise"
+    Text: {fileID: 11400000, guid: f52d2171da3617b4aa222a465c957616, type: 2}
+  - LanguageName: "P\u0443\u0441\u0441\u043A\u0438\u0439"
+    Text: {fileID: 11400000, guid: 33281b2785d4eb9458928878845e2581, type: 2}
+  - LanguageName: Italiano
+    Text: {fileID: 11400000, guid: f1bb01bc8fb96a74ba7f73651e67be71, type: 2}
+  AllowEditsStringsID: 0
+  ColumnsWidth: 150

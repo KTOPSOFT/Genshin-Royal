@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 696b429a28c5fa743babb85aee900909, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  LanguageName: English
+  PlurarLetter: s
+  LanguageIcon: {fileID: 21300000, guid: f07fd26e5e4f53c4ea6f76ce54e2e63a, type: 3}
+  Data:
+  - StringID: playername
+    Text: Player Name
+  - StringID: norooms
+    Text: THERE ARE NOT ROOMS CREATED YET, CREATE ONE TO PLAY.
+  - StringID: tdm
+    Text: Team Death Match
+  - StringID: ffa
+    Text: Free For All
+  - StringID: ctf
+    Text: Capture The Flag
+  - StringID: player
+    Text: player
+  - StringID: snd
+    Text: Search And Destroy
+  - StringID: cp
+    Text: Cover Point
+  - StringID: gr
+    Text: Gun Race
+  - StringID: lms
+    Text: Last Man Standing
+  - StringID: pickmedic
+    Text: Pick up medical kit
+  - StringID: pckammo
+    Text: Pick up Ammo
+  - StringID: pickgun
+    Text: Press {1} for pick up <color=#70ABFF>{0}</color>
+  - StringID: pickguneq
+    Text: <color=#70ABFF>{0}</color> is already equipped.
+  - StringID: playerstar
+    Text: PLAYER STAR:\n<size=14><color=black>{0}</color></size>
+  - StringID: killed
+    Text: Killed
+  - StringID: headshot
+    Text: HeadShot
+  - StringID: joinmatch
+    Text: Joined in the match
+  - StringID: leftmatch
+    Text: Left of match
+  - StringID: commitsuicide
+    Text: Has committed suicide
+  - StringID: deathfall
+    Text: Death by Fall
+  - StringID: killedenemy
+    Text: Killed Enemy
+  - StringID: hsbonus
+    Text: HeadShot Bonus
+  - StringID: joinin
+    Text: Join in
+  - StringID: plawinning
+    Text: PLAYER WINNING:\n<size=10><color=black>{0} | {1}/{2}</color></size>
+  - StringID: nolimit
+    Text: No Limit
+  - StringID: spectating
+    Text: Spectating
+  - StringID: killinaction
+    Text: KILLED IN ACTION
+  - StringID: '[server]'
+    Text: '[Server]'
+  - StringID: openchatkey
+    Text: '[Server]: Press ''T'' or ''Y'' for open chat box'
+  - StringID: noone
+    Text: No One
+  - StringID: youafk
+    Text: 'You are AFK, you will be kicked in: {0}'
+  - StringID: returnlobby
+    Text: Return to Lobby in
+  - StringID: nextround
+    Text: Next Round in
+  - StringID: wonthisround
+    Text: Won this round!
+  - StringID: totalscore
+    Text: Total Score
+  - StringID: spectcount
+    Text: <b>{0}</b> SPECTATORS
+  - StringID: waitingpla
+    Text: WAITING FOR PLAYERS <b>{0} OF {1}</b>
+  - StringID: respawnin
+    Text: RESPAWN IN
+  - StringID: loadlocalcon
+    Text: LOADING LOCAL GAME CONTENT...
+  - StringID: connectserver
+    Text: CONNECTING TO THE SERVER...
+  - StringID: cantconnect
+    Text: '<size=25><b>OPPS!</b></size>\nCOULD NOT CONNECT TO THE SERVER.\nCAUSE:
+      {0}'
+  - StringID: flagcapture
+    Text: Has capture Flag
+  - StringID: gettheflag
+    Text: Obtained the {0} flag
+  - StringID: covercount
+    Text: 'COVER POINT IN: <b>{0}</b>'
+  - StringID: auto
+    Text: AUTO
+  - StringID: single
+    Text: SINGLE
+  - StringID: semi
+    Text: SEMI
+  - StringID: roomscreate
+    Text: <b>ROOMS CREATED:</b> {0}
+  - StringID: plaonline
+    Text: <b>PLAYERS ONLINE:</b> {0}
+  - StringID: plaplaying
+    Text: <b>PLAYERS PLAYING:</b> {0}
+  - StringID: plainlobby
+    Text: <b>PLAYERS IN LOBBY:</b> {0}
+  - StringID: haskicked
+    Text: '{0} HAS BEEN KICKED!'
+  - StringID: notkicked
+    Text: '{0} HAS NOT BEEN KICKED!'
+  - StringID: voteby
+    Text: 'VOTE BY: {0}'
+  - StringID: kick?
+    Text: KICK '{0}'?
+  - StringID: youvote
+    Text: YOU VOTE {0}
+  - StringID: kill
+    Text: Kill
+  - StringID: death
+    Text: Death
+  - StringID: score
+    Text: Score
+  - StringID: timeplay
+    Text: Time Played
+  - StringID: winmatch
+    Text: 'Win Match: +{0}'
+  - StringID: continue
+    Text: Continue
+  - StringID: play
+    Text: Play
+  - StringID: search
+    Text: Search
+  - StringID: createserver
+    Text: Host
+  - StringID: wrseckey
+    Text: Please write the secred key of this account.
+  - StringID: cancel
+    Text: Cancel
+  - StringID: servname
+    Text: SERVER NAME
+  - StringID: map
+    Text: MAP
+  - StringID: mode
+    Text: MODE
+  - StringID: goal
+    Text: GOAL
+  - StringID: maxping
+    Text: MAX PING
+  - StringID: state
+    Text: STATE
+  - StringID: hostroom
+    Text: 'Host Room:'
+  - StringID: maxplayers
+    Text: 'Max Players: '
+  - StringID: roundtime
+    Text: Round Time
+  - StringID: gm
+    Text: Game Mode
+  - StringID: rounds
+    Text: 'Rounds:'
+  - StringID: maxkills
+    Text: Max Kills
+  - StringID: gampround
+    Text: Game Per Round
+  - StringID: autesele
+    Text: Auto Team Selection
+  - StringID: friendfire
+    Text: Friendly Fire
+  - StringID: withbot
+    Text: With Bots
+  - StringID: create
+    Text: CREATE
+  - StringID: volume
+    Text: Volume
+  - StringID: sensiti
+    Text: Sensitivity
+  - StringID: aimsensi
+    Text: Aim Sensitivity
+  - StringID: fovweapon
+    Text: WEAPON FOV
+  - StringID: shofrarate
+    Text: SHOW FRAME RATE
+  - StringID: invmouver
+    Text: INVERT MOUSE VERTICAL
+  - StringID: invmouhor
+    Text: INVERT MOUSE HORIZONTAL
+  - StringID: mutvoichat
+    Text: MUTE VOICE CHAT
+  - StringID: pustotalk
+    Text: PUSH TO TALK
+  - StringID: save
+    Text: SAVE
+  - StringID: reset
+    Text: RESET
+  - StringID: backvol
+    Text: BACKGROUND VOLUME
+  - StringID: chroaber
+    Text: CHROMATIC ABERRATION
+  - StringID: antiali
+    Text: ANTIALIASING
+  - StringID: bloom
+    Text: BLOOM
+  - StringID: motiblur
+    Text: MOTION BLUR
+  - StringID: enable
+    Text: Enable
+  - StringID: disable
+    Text: Disable
+  - StringID: forceenable
+    Text: Force Enable
+  - StringID: quality
+    Text: Quality
+  - StringID: anisofil
+    Text: ANISOTROPIC FILTERING
+  - StringID: minute
+    Text: Minute
+  - StringID: offline
+    Text: Offline
+  - StringID: online
+    Text: Online
+  - StringID: ping
+    Text: Ping
+  - StringID: yes
+    Text: Yes
+  - StringID: no
+    Text: No
+  - StringID: areusulega
+    Text: Are you sure you want to exit game?
+  - StringID: friend
+    Text: Friend
+  - StringID: resume
+    Text: Resume
+  - StringID: scorboard
+    Text: Scoreboard
+  - StringID: settings
+    Text: Settings
+  - StringID: changteam
+    Text: Change Team
+  - StringID: join
+    Text: Join
+  - StringID: teamname
+    Text: Team Name
+  - StringID: suicide
+    Text: Suicide
+  - StringID: leavroom
+    Text: Leave Room
+  - StringID: spectator
+    Text: Spectator
+  - StringID: send
+    Text: Send
+  - StringID: gamresume
+    Text: Game Resume
+  - StringID: selettobg
+    Text: Selecting team to balance game...
+  - StringID: kills
+    Text: Kills
+  - StringID: spawprotdi
+    Text: 'SPAWN PROTECTION DISABLE IN: <b>{0}</b>'
+  - StringID: waifbtp
+    Text: Waiting for balance team players
+  - StringID: killedby
+    Text: 'KILLED BY: '
+  - StringID: joining
+    Text: Joining...
+  - StringID: lea
+    Text: Leaving Match...
+  - StringID: pinghigh
+    Text: Your Ping is high!
+  - StringID: shop
+    Text: SHOP
+  - StringID: clan
+    Text: Clan
+  - StringID: operator
+    Text: Operator
+  - StringID: start
+    Text: Start
+  - StringID: leave
+    Text: Leave
+  - StringID: rememberme
+    Text: REMEMBER ME
+  - StringID: targetfrrt
+    Text: TARGET FRAME RATE
+  - StringID: elim
+    Text: Elimination
+  - StringID: dm
+    Text: Demolition
+  - StringID: private
+    Text: Private
+  - StringID: pass
+    Text: Password
+  - StringID: lang
+    Text: Language
+  - StringID: general
+    Text: General
+  - StringID: graphics
+    Text: Graphics
+  - StringID: audio
+    Text: Audio
+  - StringID: control
+    Text: Controls
+  - StringID: refreshrt
+    Text: Refresh Rate
+  - StringID: wpfov
+    Text: Weapon Projection
+  - StringID: apply
+    Text: Apply
+  - StringID: revert
+    Text: Revert
+  - StringID: devinsour
+    Text: DEVICE INPUT SOURCE
+  - StringID: damage
+    Text: DAMAGE
+  - StringID: firerate
+    Text: FIRE RATE
+  - StringID: accuracy
+    Text: ACCURACY
+  - StringID: weight
+    Text: WEIGHT
+  - StringID: buy
+    Text: BUY
+  - StringID: primary
+    Text: PRIMARY
+  - StringID: owned
+    Text: OWNED
+  - StringID: inventory
+    Text: INVENTORY
+  - StringID: coins
+    Text: COINS
+  - StringID: newtext
+    Text: New Text
+  - StringID: youwannapurchase
+    Text: YOU WANNA PURCHASE
+  - StringID: for
+    Text: FOR
+  - StringID: itempurchase
+    Text: ITEM PURCHASED
+  - StringID: ok
+    Text: OK
+  - StringID: youdonthaveeno
+    Text: YOU DON'T HAVE ENOUGH COINS TO MAKE THIS PURCHASE
+  - StringID: buycoins
+    Text: BUY COINS
+  - StringID: loading
+    Text: LOADING
+  - StringID: category
+    Text: Category
+  - StringID: weapon
+    Text: Weapon
+  - StringID: weaponcamo
+    Text: Weapon Camo
+  - StringID: playerskin
+    Text: Player Skin
+  - StringID: home
+    Text: Home
+  - StringID: serverlist
+    Text: SERVER LIST
+  - StringID: tutorial
+    Text: TUTORIAL
+  - StringID: options
+    Text: OPTIONS
+  - StringID: logout
+    Text: LOGOUT
+  - StringID: quit
+    Text: QUIT
+  - StringID: loadout
+    Text: Loadout
+  - StringID: playerclass
+    Text: Player Class
+  - StringID: startinggame
+    Text: STARTING GAME
+  - StringID: ready
+    Text: Ready
+  - StringID: waitingforpla
+    Text: WAITING FOR PLAYERS
+  - StringID: confirmleave
+    Text: ARE YOU SURE THAT WANT TO LEAVE THIS ROOM?
+  - StringID: viewmode
+    Text: View Mode
+  - StringID: showping
+    Text: Show Ping
+  - StringID: barraks
+    Text: Barracks
+  - StringID: customlayout
+    Text: Custom Layout
+  - StringID: inputmapping
+    Text: Input Mapping
+  - StringID: modify
+    Text: Modify
+  - StringID: change
+    Text: Change
+  - StringID: profile
+    Text: Profile
+  - StringID: level
+    Text: Level
+  - StringID: ranking
+    Text: Ranking
+  - StringID: multiplesessions
+    Text: Your account has connected from another game session.
+  - StringID: finishingup
+    Text: FINISHING...
+  - StringID: verifyingsession
+    Text: VERIFYING PLAYER SESSION...
+  - StringID: changeregion
+    Text: Change server region?
+  - StringID: progress
+    Text: Progress
+  - StringID: badge
+    Text: Badge
+  - StringID: avatar
+    Text: Avatar
+  - StringID: callingcard
+    Text: Calling Card
+  - StringID: clantag
+    Text: Clan Tag
+  - StringID: emblem
+    Text: Emblem
+  - StringID: opendoor
+    Text: Open Door
+  - StringID: closedoor
+    Text: Close Door
+  - StringID: leavroomconf
+    Text: Are you sure to leave this room?
+  - StringID: kf
+    Text: Kill Confirmed
+  - StringID: enterasspect
+    Text: Enter as spectator
+  - StringID: kc
+    Text: Kill Confirmed
+  - StringID: voucher
+    Text: Voucher
+  - StringID: unlock
+    Text: Unlock
+  - StringID: displaymode
+    Text: Display Mode
+  - StringID: resolution
+    Text: Resolution

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b55a2495e855d4b42af31d8d4a657ed7, type: 3}
+  m_Name: LoginDataBasePro
+  m_EditorClassIdentifier: 
+  PhpHostPath: https://www.lovattocloud.com/demo/ulsp/rest-v1/
+  SecretKey: 123456
+  OnLoginLoadLevel: MainMenu
+  CheckGameVersion: 0
+  PeerToPeerEncryption: 0
+  ForceLoginScene: 1
+  allowPlayAsGuest: 1
+  DetectBan: 1
+  RequiredEmailVerification: 0
+  usePhotonAuthentication: 0
+  CanRegisterSameEmail: 0
+  checkInternetConnection: 1
+  BanComprobationInMid: 0
+  PlayerCanChangeNick: 1
+  UpdateIP: 1
+  FilterUserNames: 1
+  showStatusPrefix: 1
+  maxNickNameLenght: 16
+  MinPasswordLenght: 5
+  maxLoginAttempts: 5
+  waitTimeAfterFailAttempts: 180
+  CheckBanEach: 60
+  banMethod: 2
+  afterLoginBehave: 0
+  rememberMeBehave: 1
+  LoginPhp: bl_Login
+  RegisterPhp: bl_Register
+  DataBasePhp: bl_DataBase
+  AdminPhp: bl_Admin
+  AccountPhp: bl_Account
+  RankingPhp: bl_Ranking
+  InitPhp: bl_Init
+  BanListPhp: bl_BanList
+  SupportPhp: bl_Support
+  DataBaseCreator: bl_DatabaseCreator
+  ClanPhp: bl_Clan
+  ShopPhp: bl_Shop
+  SecurityPhp: bl_Security
+  OAuthPhp: bl_OAuth
+  FullLogs: 1

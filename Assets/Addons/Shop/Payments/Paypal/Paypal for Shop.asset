@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a776487618c5eca41bfe2a54260297f7, type: 3}
+  m_Name: Paypal for Shop
+  m_EditorClassIdentifier: 
+  Name: Paypal for Shop
+  Version: 1.0.5
+  MinMFPSVersion: 1.9
+  Instructions: "<b>Required:</b>\n\nMFPS 1.9++\nShop 1.2.0++\nULogin Pro 1.9.47++\n\n<b>Documentation
+    At:</b> MFPS -> Tutorials -> Shop Paypal\n\n<b>Shop Paypal</b> is an extension
+    of the Shop Addon for MFPS 2.0 which handles the client side code for Paypal
+    checkout API, with this addon you can accept in-game payments using Paypal in
+    pretty much any platform that allow its <i>(Google, Facebook and Apple for example
+    doesn't allow it)</i>, but this is one of the best payment solution for PC and
+    WebGL.\n\nThe plugin use the official <b>Paypal Checkout API v2</b> without external
+    plugins required.\n\n<b><size=16>How the system works?</size></b>\n\n1 - The
+    user intent to buy a game item.\n2 - The game call the PayPal API to set up the
+    payment.\r\n3 - The game receive the authorization from the Paypal server and
+    start the checkout flow in the platform browser.\n4 - The game confirm the status
+    of the payment -> complete the purchase and save the data in the user account
+    <i>(using ULogin Pro)</i>.\n\n<b>Features:</b>\n\n\u2022  2-Clicks integration.\n\u2022 
+    Latest Paypal Checkout API (v2)\n\u2022  Sandbox and Live mode support.\n\u2022 
+    Test payments in UnityEditor.\n\u2022  All Paypal currencys.\n\u2022  Setup for
+    Digital Products.\n\u2022  Works on all platforms.\n\u2022  Tutorial for set
+    up your Paypal development environment.\n"
+  TutorialScript: PaypalForShopDocumentation

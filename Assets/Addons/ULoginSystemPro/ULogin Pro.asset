@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a776487618c5eca41bfe2a54260297f7, type: 3}
+  m_Name: ULogin Pro
+  m_EditorClassIdentifier: 
+  Name: ULogin Pro
+  Version: 2.3.3
+  MinMFPSVersion: 1.9.1
+  Instructions: "<b>Get Started: \r</b>\n\r\n\u25A0  Import the ULogin Pro package
+    in you Unity project.\r\n\n\u25A0 Add the Login Scene in Build Settings, scenes
+    are located in Assets -> Addons -> ULoginSystemPro -> Content -> Scenes, make
+    sure to set the <b>Login</b> scene as the first scene in the build settings.\r\n\n\u25A0 
+    To set up your host and full details check the In-Editor tutorial in (Unity Editor
+    Toolbar) MFPS -> Addons -> ULogin -> Tutorial.\r"
+  TutorialScript: ULoginDocumentation

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e976b5da5723645a6280b0f06a7d7b, type: 3}
+  m_Name: PlayerSelector
+  m_EditorClassIdentifier: 
+  AllPlayers:
+  - Name: Recon Soldier
+    Preview: {fileID: 21300000, guid: d52ded93aba596d4a958d709c14113b2, type: 3}
+    Prefab: {fileID: 1353458154535538, guid: 353d635db0698974b963c4153ac19a5d, type: 3}
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 2
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    ID: 0
+    team: 2
+  - Name: Delta Soldier
+    Preview: {fileID: 21300000, guid: fe8dd5eb451d51540b9478032e877276, type: 3}
+    Prefab: {fileID: 1568668014787886, guid: 8b43b97c50cac1d43a7c27ca8b6a6cdf, type: 3}
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 2
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    ID: 1
+    team: 1
+  - Name: West Soldier
+    Preview: {fileID: 21300000, guid: bf24a65d9e31d5642a6b0ff511ee58ef, type: 3}
+    Prefab: {fileID: 7101680813762821585, guid: 51aa405c8c9dcb04c836a9f300aee26f,
+      type: 3}
+    Unlockability:
+      UnlockMethod: 1
+      ItemType: 2
+      Price: 500
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    ID: 2
+    team: 2
+  - Name: Winter Soldier
+    Preview: {fileID: 21300000, guid: 1b06f477d90517943a96dca5f666ffa5, type: 3}
+    Prefab: {fileID: 8990095237878209855, guid: bcf32f8651fa94c4eb781cc08f1423ee,
+      type: 3}
+    Unlockability:
+      UnlockMethod: 1
+      ItemType: 2
+      Price: 500
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    ID: 3
+    team: 1
+  Team1Players: 0000000003000000
+  Team2Players: 0100000002000000
+  FFAPlayers: 01000000000000000200000003000000
+  Team1Bots:
+  - {fileID: 114101145339246268, guid: 424e7da58c2e1de49aef138757fca69a, type: 3}
+  Team2Bots:
+  - {fileID: 1562605632882424370, guid: e8aa4daeae861cd4d98c01198ff31061, type: 3}
+  RandomizeBots: 1
+  PlayerSelectorMode: 0
+  inMatchUIPrefab: {fileID: 1000012334117376, guid: ed24ba8cf38db7b4386f9f5c0049beec,
+    type: 3}

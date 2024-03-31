@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1971806352d56f341837bd0e5a8fbc37, type: 3}
+  m_Name: ShopData
+  m_EditorClassIdentifier: 
+  ShopPayment: 0
+  CoinToApplyPurchases: 1
+  CoinsPacks:
+  - Name: 1000 COINS
+    ID: mfps.1000.coins
+    Coins: 1000
+    BonusCoins: 0
+    Price: 1.99
+    PackIcon: {fileID: 2800000, guid: 4e428441e13c8f146aec78642fe41c3b, type: 3}
+    HighlightPack: 0
+  - Name: 5000 COINS
+    ID: mfps.5000.coins
+    Coins: 5000
+    BonusCoins: 0
+    Price: 4.99
+    PackIcon: {fileID: 2800000, guid: a1403aed252221d4bacfaac616729390, type: 3}
+    HighlightPack: 0
+  - Name: 10000 COINS
+    ID: mfps.10000.coins
+    Coins: 10000
+    BonusCoins: 200
+    Price: 9.99
+    PackIcon: {fileID: 2800000, guid: 09859cec43c58714c83ef930a97ca3c2, type: 3}
+    HighlightPack: 1
+  - Name: 25000 COINS
+    ID: mfps.25000.coins
+    Coins: 25000
+    BonusCoins: 500
+    Price: 19.99
+    PackIcon: {fileID: 2800000, guid: 9112d0f1a2b60774d9016b7778cbd50d, type: 3}
+    HighlightPack: 0
+  categorys:
+  - Name: Weapons
+    itemType: 0
+  - Name: Player Skins
+    itemType: 2
+  - Name: Weapon Camos
+    itemType: 1
+  PricePrefix: $
+  ShowFreeItems: 1
+  showBlockedByLevelOnly: 0
+  randomizeItemsInShop: 1
+  allowPurchasesWithoutAccount: 1
+  showEmeblemsInShop: 0

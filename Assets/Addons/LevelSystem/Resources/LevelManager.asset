@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41217561636e9f243a9a908d33f95d57, type: 3}
+  m_Name: LevelManager
+  m_EditorClassIdentifier: 
+  Levels:
+  - Name: Level 1
+    ScoreNeeded: 0
+    Icon: {fileID: 21300000, guid: 8bfcee3bf7a6cf14b871c41084b4822d, type: 3}
+    LevelID: 1
+  - Name: Level 2
+    ScoreNeeded: 200
+    Icon: {fileID: 21300000, guid: dc556f921893472408b3ae69cb3012af, type: 3}
+    LevelID: 2
+  - Name: Level 3
+    ScoreNeeded: 400
+    Icon: {fileID: 21300000, guid: 00c4d4f82e23d3c4cb9e015b51d0202a, type: 3}
+    LevelID: 3
+  - Name: Level 4
+    ScoreNeeded: 600
+    Icon: {fileID: 21300000, guid: 4e7b3ef4c3ab6e04caded159161383d4, type: 3}
+    LevelID: 4
+  - Name: Level 5
+    ScoreNeeded: 800
+    Icon: {fileID: 21300000, guid: b9488ea56b36ccd4c9ac2eb1b40d4297, type: 3}
+    LevelID: 5
+  - Name: Level 6
+    ScoreNeeded: 1200
+    Icon: {fileID: 21300000, guid: 5eb6147e6146fd044bdd67864ce99963, type: 3}
+    LevelID: 6
+  - Name: Level 7
+    ScoreNeeded: 1600
+    Icon: {fileID: 21300000, guid: 8ce2f77e5d5b8a7489d12dcfed196d7c, type: 3}
+    LevelID: 7
+  - Name: Level 8
+    ScoreNeeded: 2000
+    Icon: {fileID: 21300000, guid: bf06f3ab7706fc64397b220509eebb2c, type: 3}
+    LevelID: 8
+  - Name: Level 9
+    ScoreNeeded: 2400
+    Icon: {fileID: 21300000, guid: cb3593e2703f169408aa8fb4bd86d65f, type: 3}
+    LevelID: 9
+  - Name: Level 10
+    ScoreNeeded: 2800
+    Icon: {fileID: 21300000, guid: 5c7cd1dea8ee0864db4028ea6597688c, type: 3}
+    LevelID: 10
+  - Name: Level 11
+    ScoreNeeded: 3400
+    Icon: {fileID: 21300000, guid: c0d91e5ad79543745a9478568b6c90da, type: 3}
+    LevelID: 11
+  - Name: Level 12
+    ScoreNeeded: 4000
+    Icon: {fileID: 21300000, guid: 3a16d660a74486c44bd531d90e8a2538, type: 3}
+    LevelID: 12
+  - Name: Level 13
+    ScoreNeeded: 4600
+    Icon: {fileID: 21300000, guid: 338df866a028ea34baf83b10720f3c80, type: 3}
+    LevelID: 13
+  - Name: Level 14
+    ScoreNeeded: 5200
+    Icon: {fileID: 21300000, guid: 3e39257ee3137b84c8350642af37c0f1, type: 3}
+    LevelID: 14
+  - Name: Level 15
+    ScoreNeeded: 5800
+    Icon: {fileID: 21300000, guid: f73f67f95475dc74094df7467e0fffbb, type: 3}
+    LevelID: 15
+  - Name: Level 16
+    ScoreNeeded: 6600
+    Icon: {fileID: 21300000, guid: 2ca537d110d934843aca18f53caea265, type: 3}
+    LevelID: 16
+  - Name: Level 17
+    ScoreNeeded: 7400
+    Icon: {fileID: 21300000, guid: 7f26bbd1aa7d6964fafb33a6a6329326, type: 3}
+    LevelID: 17
+  - Name: Level 18
+    ScoreNeeded: 8200
+    Icon: {fileID: 21300000, guid: fe94c3a321c2cdf48aaa99bb6a524e71, type: 3}
+    LevelID: 18
+  - Name: Level 19
+    ScoreNeeded: 9000
+    Icon: {fileID: 21300000, guid: 3907ed9be1b2cd943a6865c6bbaff8f9, type: 3}
+    LevelID: 19
+  - Name: Level 20
+    ScoreNeeded: 9800
+    Icon: {fileID: 21300000, guid: c93a2e49111d6f74ba3b618e20b370b3, type: 3}
+    LevelID: 20
+  - Name: Level 21
+    ScoreNeeded: 10800
+    Icon: {fileID: 21300000, guid: 3b7b5a2dfe78698438952ab7fbf58326, type: 3}
+    LevelID: 21
+  - Name: Level 22
+    ScoreNeeded: 11800
+    Icon: {fileID: 21300000, guid: 0aa7e3de2e691a440b5c711b8774205a, type: 3}
+    LevelID: 22
+  - Name: Level 23
+    ScoreNeeded: 12800
+    Icon: {fileID: 21300000, guid: 4870b5bd9291b41409f9f9b895c80d38, type: 3}
+    LevelID: 23
+  - Name: Level 24
+    ScoreNeeded: 13800
+    Icon: {fileID: 21300000, guid: 970fcd1b5cf0a9146b7c145cf9789025, type: 3}
+    LevelID: 24
+  - Name: Level 25
+    ScoreNeeded: 14800
+    Icon: {fileID: 21300000, guid: 106c692f13cf134479dc4bbd786be069, type: 3}
+    LevelID: 25
+  - Name: Level 26
+    ScoreNeeded: 16000
+    Icon: {fileID: 21300000, guid: 6f51dc0eba4d121458424391b068f81c, type: 3}
+    LevelID: 26
+  - Name: Level 27
+    ScoreNeeded: 17200
+    Icon: {fileID: 21300000, guid: b4d3b6bd3c5c9854592618ee5056d8ff, type: 3}
+    LevelID: 27
+  - Name: Level 28
+    ScoreNeeded: 18400
+    Icon: {fileID: 21300000, guid: 82e9bc7d96a6e734a93762bc11751bc9, type: 3}
+    LevelID: 28
+  - Name: Level 29
+    ScoreNeeded: 19600
+    Icon: {fileID: 21300000, guid: 7176fd8621f1fe647a103fdc3fe2ef89, type: 3}
+    LevelID: 29
+  - Name: Level 30
+    ScoreNeeded: 20800
+    Icon: {fileID: 21300000, guid: d0044f5130da098489f7e0c7e6c20773, type: 3}
+    LevelID: 30
+  - Name: Level 31
+    ScoreNeeded: 22200
+    Icon: {fileID: 21300000, guid: 36fcecb95ae117f4dadf0c087d8ac5c1, type: 3}
+    LevelID: 31
+  - Name: Level 32
+    ScoreNeeded: 23600
+    Icon: {fileID: 21300000, guid: 8a38b4ca9a5c33948aec6d4387727be6, type: 3}
+    LevelID: 32
+  - Name: Level 33
+    ScoreNeeded: 25000
+    Icon: {fileID: 21300000, guid: 83ca838cc5606ec4bb9171fd7c27d6b0, type: 3}
+    LevelID: 33
+  - Name: Level 34
+    ScoreNeeded: 26400
+    Icon: {fileID: 21300000, guid: 6e26f284aac36d94586abc4b01b1be73, type: 3}
+    LevelID: 34
+  - Name: Level 35
+    ScoreNeeded: 27800
+    Icon: {fileID: 21300000, guid: efef7fbeb9f627b418a2894da346252d, type: 3}
+    LevelID: 35
+  - Name: Level 36
+    ScoreNeeded: 29400
+    Icon: {fileID: 21300000, guid: 77d50d04a3b396f4a9daa7b87e335245, type: 3}
+    LevelID: 36
+  - Name: Level 37
+    ScoreNeeded: 31000
+    Icon: {fileID: 21300000, guid: a4c2c8253e1284a4e9bc77dedd62ddf4, type: 3}
+    LevelID: 37
+  - Name: Level 38
+    ScoreNeeded: 32600
+    Icon: {fileID: 21300000, guid: 62d58da7f74d89d45aec7e6d44279e59, type: 3}
+    LevelID: 38
+  - Name: Level 39
+    ScoreNeeded: 34200
+    Icon: {fileID: 21300000, guid: b5d0cad11cdc7a14ea0a00f619612242, type: 3}
+    LevelID: 39
+  - Name: Level 40
+    ScoreNeeded: 35800
+    Icon: {fileID: 21300000, guid: a15f945a137626447b0739710ef09a24, type: 3}
+    LevelID: 40
+  - Name: Level 41
+    ScoreNeeded: 37600
+    Icon: {fileID: 21300000, guid: 1f8fccd3eb3e8dd4495a3ed039782d8b, type: 3}
+    LevelID: 41
+  - Name: Level 42
+    ScoreNeeded: 39400
+    Icon: {fileID: 21300000, guid: 245db2190f6e67844ade60121bdaf630, type: 3}
+    LevelID: 42
+  - Name: Level 43
+    ScoreNeeded: 41200
+    Icon: {fileID: 21300000, guid: 550ef8e160c382d469656dfe6426ac56, type: 3}
+    LevelID: 43
+  - Name: Level 44
+    ScoreNeeded: 43000
+    Icon: {fileID: 21300000, guid: fae1e89385bce7243bbd8759d62ed347, type: 3}
+    LevelID: 44
+  - Name: Level 45
+    ScoreNeeded: 44800
+    Icon: {fileID: 21300000, guid: 44fa4524ffe973b48b372e1ae943598d, type: 3}
+    LevelID: 45
+  - Name: Level 46
+    ScoreNeeded: 46800
+    Icon: {fileID: 21300000, guid: 4bca15a1faf935d49a156a3900d5a848, type: 3}
+    LevelID: 46
+  - Name: Level 47
+    ScoreNeeded: 48800
+    Icon: {fileID: 21300000, guid: 8a61d4e985ae367459f69ced8dcf359e, type: 3}
+    LevelID: 47
+  - Name: Level 48
+    ScoreNeeded: 50800
+    Icon: {fileID: 21300000, guid: 212788e0c752ed048a5ecc538b2f7d57, type: 3}
+    LevelID: 48
+  - Name: Level 49
+    ScoreNeeded: 52800
+    Icon: {fileID: 21300000, guid: e48f87e415427e04a8ed9c948af7ecff, type: 3}
+    LevelID: 49
+  - Name: Level 50
+    ScoreNeeded: 54800
+    Icon: {fileID: 21300000, guid: 330c1b58130cafc4cada3ff56c9c4819, type: 3}
+    LevelID: 50
+  - Name: Level 51
+    ScoreNeeded: 57000
+    Icon: {fileID: 21300000, guid: fffb92b3d3646384caacbc8976f6aab7, type: 3}
+    LevelID: 51
+  - Name: Level 52
+    ScoreNeeded: 59200
+    Icon: {fileID: 21300000, guid: 769db9e1bd7cdc942bf9669709fe393b, type: 3}
+    LevelID: 52
+  - Name: Level 53
+    ScoreNeeded: 61400
+    Icon: {fileID: 21300000, guid: b2bb7f97f723f8b4faf9629f28ad5f5d, type: 3}
+    LevelID: 53
+  - Name: Level 54
+    ScoreNeeded: 63600
+    Icon: {fileID: 21300000, guid: 56ce7a4bce1d5b248be34018a37be5b3, type: 3}
+    LevelID: 54
+  - Name: Level 55
+    ScoreNeeded: 65800
+    Icon: {fileID: 21300000, guid: e8423944b9c138140ba1aa671e5c4244, type: 3}
+    LevelID: 55
+  - Name: Level 56
+    ScoreNeeded: 68200
+    Icon: {fileID: 21300000, guid: f7671839a5d93f5469d785a188d44bea, type: 3}
+    LevelID: 56
+  - Name: Level 57
+    ScoreNeeded: 70600
+    Icon: {fileID: 21300000, guid: 6aeb78a3da1bc5e42b7b40ca4359c986, type: 3}
+    LevelID: 57
+  - Name: Level 58
+    ScoreNeeded: 73000
+    Icon: {fileID: 21300000, guid: c5e3f2c0745d9ce4f922bfe11f9dcdf4, type: 3}
+    LevelID: 58
+  - Name: Level 59
+    ScoreNeeded: 75400
+    Icon: {fileID: 21300000, guid: 4b1fbff0202321942b8ad8b76ff75471, type: 3}
+    LevelID: 59
+  - Name: Level 60
+    ScoreNeeded: 77800
+    Icon: {fileID: 21300000, guid: 93359075ff5be6148bcc1849dbf2e1b7, type: 3}
+    LevelID: 60
+  - Name: Level 61
+    ScoreNeeded: 80400
+    Icon: {fileID: 21300000, guid: 36be2c5ae3a422146a2f5f0f422a2ea5, type: 3}
+    LevelID: 61
+  - Name: Level 62
+    ScoreNeeded: 83000
+    Icon: {fileID: 21300000, guid: ddcfff2c2c6650741a77930b7831d875, type: 3}
+    LevelID: 62
+  - Name: Level 63
+    ScoreNeeded: 85600
+    Icon: {fileID: 21300000, guid: b3283bab0a2a84b42a1a0ee05c629fb8, type: 3}
+    LevelID: 63
+  - Name: Level 64
+    ScoreNeeded: 88200
+    Icon: {fileID: 21300000, guid: 6ece4023a7f7f4047a1a8c32140c9b60, type: 3}
+    LevelID: 64
+  - Name: Level 65
+    ScoreNeeded: 90800
+    Icon: {fileID: 21300000, guid: 1cfdcc2694d048d4180a2b6d5faff24a, type: 3}
+    LevelID: 65
+  - Name: Level 66
+    ScoreNeeded: 93600
+    Icon: {fileID: 21300000, guid: f609e4706b6b1064d9a4a2cd6cc8ed28, type: 3}
+    LevelID: 66
+  - Name: Level 67
+    ScoreNeeded: 96400
+    Icon: {fileID: 21300000, guid: 89224f0889be9ef4fab6a26279965ef3, type: 3}
+    LevelID: 67
+  - Name: Level 68
+    ScoreNeeded: 99200
+    Icon: {fileID: 21300000, guid: f5648687420f5cf4e935ea70892b4395, type: 3}
+    LevelID: 68
+  - Name: Level 69
+    ScoreNeeded: 102000
+    Icon: {fileID: 21300000, guid: 74c9187474f1fcb44b8f20fd5bb51ee2, type: 3}
+    LevelID: 69
+  - Name: Level 70
+    ScoreNeeded: 104800
+    Icon: {fileID: 21300000, guid: 643749ccf50aa874a9acd304ce0b6278, type: 3}
+    LevelID: 70
+  - Name: Level 71
+    ScoreNeeded: 107800
+    Icon: {fileID: 21300000, guid: 95d2566d44fcd914ab921d66225a3eb8, type: 3}
+    LevelID: 71
+  - Name: Level 72
+    ScoreNeeded: 110800
+    Icon: {fileID: 21300000, guid: 47aec36018cd5364a916cb72213dfe5d, type: 3}
+    LevelID: 72
+  - Name: Level 73
+    ScoreNeeded: 113800
+    Icon: {fileID: 21300000, guid: 35f862eb2064486468ad5b0a8300c9cf, type: 3}
+    LevelID: 73
+  - Name: Level 74
+    ScoreNeeded: 116800
+    Icon: {fileID: 21300000, guid: 05bd477b4e2020f43aa8cddd292e5787, type: 3}
+    LevelID: 74
+  - Name: Level 75
+    ScoreNeeded: 119800
+    Icon: {fileID: 21300000, guid: 2d46f1daa98bacb4fb82ee7edeaab73b, type: 3}
+    LevelID: 75
+  - Name: Level 76
+    ScoreNeeded: 123000
+    Icon: {fileID: 21300000, guid: 4d90e0eb2b0aad543afe8c9a41e12df1, type: 3}
+    LevelID: 76
+  - Name: Level 77
+    ScoreNeeded: 126200
+    Icon: {fileID: 21300000, guid: 5b9a2dbd78478cf4ba0a2eb3c3fe57f8, type: 3}
+    LevelID: 77
+  - Name: Level 78
+    ScoreNeeded: 129400
+    Icon: {fileID: 21300000, guid: ca0c972b4329a7d4cb1ae8a9c585264a, type: 3}
+    LevelID: 78
+  UpdateLevelsInMidGame: 1

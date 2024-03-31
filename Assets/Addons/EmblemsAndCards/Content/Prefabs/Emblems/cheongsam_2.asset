@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5194ec657eba5e24d93101199e182060, type: 3}
+  m_Name: cheongsam_2
+  m_EditorClassIdentifier: 
+  Emblem: {fileID: 2800000, guid: 10678b45f8ce1f549a7bd2fdf6edcc28, type: 3}
+  BackgroundColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 1}
+  OutlineColor: {r: 1, g: 0.5518868, b: 0.93369794, a: 0.22745098}
+  VignetteColor: {r: 1, g: 0.051886797, b: 0.51939166, a: 0.0627451}
+  Size: 1
+  Unlockability:
+    UnlockMethod: 1
+    ItemType: 4
+    Price: 50
+    UnlockAtLevel: 0
+    NoAllowedCoins: 01000000

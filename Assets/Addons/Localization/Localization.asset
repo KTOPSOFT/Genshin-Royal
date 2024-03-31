@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a776487618c5eca41bfe2a54260297f7, type: 3}
+  m_Name: Localization
+  m_EditorClassIdentifier: 
+  Name: Localization
+  Version: 1.2.5
+  MinMFPSVersion: 1.9
+  Instructions: "<b>Get Started:</b>\n\r\n- Import the addon package in your MFPS
+    project\r\n- When script compilation is finish go to (Toolbar) MFPS -> Addons
+    -> Localization -> (Click)Enable\r\n- Then MFPS -> Addons -> Localization ->
+    (Click)Integrate.\r\n- Done.\r\n\r\n<b>Add New sentence / word:</b>\n\r\n- First
+    you need list the world in the LocalizationData, go to Addons -> Localization
+    -> Resources -> Localization -> click on \"Open Editor\"\r\nor (Toolbar) MFPS
+    -> Addons -> Localization -> Editor, then in the window that open click in the
+    button \"+\" that is in the\r\nupper left corner, after you click it you will
+    see that a text field is focus, writte a \"Key ID\" for your new sentence,\r\nthe
+    key id should be short and prefered in lowercase for performance.\r\n\r\nAfter
+    you have it, click in the button \"\u2714\" and you will see a empty field for
+    each language next to the new key id (horizontal)\r\nthere you need to assign
+    the translate sentence for each language.\r\n\r\n- Now that you have the sentence
+    you need assign it where you need it.\r\n\r\nThere are two types of text that
+    you may want to translate: for script and from a static UI component,\r\nthe
+    scripts text are all the strings that you assign by script to a UI component
+    or show in OnGUI,\r\nfor example: m_MyText.text = \"THIS IS MY CUSTOM TEXT\",
+    and the other type of text is the one that is static,\r\nthat you assign in the
+    editor to the UI Component and never change in runtime, for example a text in
+    the UI Canvas.\r\n\r\n- So for Locate a text from script: \r\n   - Normally you
+    assign the text like this: m_MyText.text = \"THIS IS MY CUSTOM TEXT\";\r\n   
+    for localize the text you should replace with: m_MyText.text = bl_Localization.Instance.GetText(\"keyid\");\r\n\t
+    where \"keyid\" = to the string id that you assign in the LocalizationData window,
+    but also for better performance\r\n\t is recommended that you identified the
+    text by they id instead of the key id, so you can use like this:\r\n\t m_MyText.text
+    = bl_Localization.Instance.GetText(12); where 12 = to the index position of the
+    sentence in the \r\n\t LocalizationData list.\r\n\t \r\n\t if you assign the
+    text frequently like for example in a Update() function is highly recommended
+    that you cache the locate text,\r\n\t how? easy, you create a string for store
+    the reference and get the localized text on Start(), then use the cache string
+    in the Update() function.\r\n\t \r\n- For Locate a UI Text component:\t \r\n   
+    That is more simple, for it you only need add the script 'bl_LocalizationUI.cs'
+    to the Text Component, then \r\n\tselect the Key ID from the 'Key' list or click
+    in 'Manual' button to assign the key id manually.\r\n\t\r\n<b>Add a new language:</b>\n\r\n-
+    Go to Addons -> Localization -> Resources -> Localization -> click on the button
+    \"Create new language data\"\r\n  After this a new scrip-table object will be
+    focus in the Project View, there edit just the basic info (Language Name, Plural
+    Letter and Icon) also the scrit-able object name\r\n  then add this in the 'Language
+    List' of Localization Data ( Addons -> Localization -> Resources -> Localization
+    -> *)\r\n  Now open the LocalizationData Window (Toolbar) MFPS -> Addons -> Localization
+    -> Editor, and translate all the sentences of your new language.\r\n  That's."
+  TutorialScript: 

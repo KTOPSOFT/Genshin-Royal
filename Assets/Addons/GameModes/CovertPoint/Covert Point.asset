@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a776487618c5eca41bfe2a54260297f7, type: 3}
+  m_Name: Covert Point
+  m_EditorClassIdentifier: 
+  Name: Covert Point
+  Version: 1.5.0
+  MinMFPSVersion: 1.9
+  Instructions: "<b>Get Started:</b>\n\n\u2022 After import the package in your MFPS
+    2.0 project go to (Top Bar) MFPS -> Addons -> Game Mode -> CovertPoint -> Enable\n\n\u2022
+    Then in each map scene do this: (Top Bar) MFPS -> Addons -> Game Mode -> CovertPoint
+    -> Integrate.\r\n\n\u2022 You will see a new prefab with some spheres that represent
+    the cover points, with this you are ready to go and reskin and improve the system."
+  TutorialScript: 
