@@ -23,12 +23,13 @@ namespace Polyart
         // Start is called before the first frame update
         void Start()
         {
-
+            playerController = GameObject.FindWithTag("MainCamera");
         }
 
         // Update is called once per frame
         void Update()
         {
+            if(playerController == null) { playerController = GameObject.FindWithTag("MainCamera"); }
             float playerDistance = Vector3.Distance(playerController.transform.position, gameObject.transform.position);
 
             if (playerDistance <= lightCullDistance)

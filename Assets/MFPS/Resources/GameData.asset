@@ -27,8 +27,8 @@ MonoBehaviour:
   DetectAFK: 0
   MasterCanKickPlayers: 1
   ArriveKitsCauseDamage: 1
-  CalculateNetworkFootSteps: 1
-  ShowNetworkStats: 1
+  CalculateNetworkFootSteps: 0
+  ShowNetworkStats: 0
   RememberPlayerName: 1
   ShowWeaponLoadout: 1
   useCountDownOnStart: 1
@@ -60,8 +60,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a8e2d139cede6ec4dbb43712a6f9a86f, type: 2}
   - {fileID: 11400000, guid: 6249e2dd81be65b448a55259fd1d2bea, type: 2}
   GameVersion: 1.9.1
-  guestNameFormat: Guest {0}
-  botsNameFormat: BOT {0}
+  guestNameFormat: K-Guest {0}
+  botsNameFormat: K-Bot {0}
   SpawnProtectedTime: 5
   CountDownTime: 10
   PlayerRespawnTime: 7
@@ -349,7 +349,7 @@ MonoBehaviour:
   Team1Color: {r: 1, g: 0.3915094, b: 0.4497125, a: 1}
   Team2Name: Inazuma
   Team2Color: {r: 1, g: 0.3820755, b: 0.7938901, a: 1}
-  Player1: {fileID: 5999713037294158776, guid: 87bee2b2e557cf44d942511c74203447, type: 3}
+  Player1: {fileID: 1269315973783663627, guid: 47ed8eb079024864ab92fef619663156, type: 3}
   Player2: {fileID: 148232367451769757, guid: 353d635db0698974b963c4153ac19a5d, type: 3}
   BotTeam1: {fileID: 114101145339246268, guid: 424e7da58c2e1de49aef138757fca69a, type: 3}
   BotTeam2: {fileID: 1562605632882424370, guid: e8aa4daeae861cd4d98c01198ff31061,

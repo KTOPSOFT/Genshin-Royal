@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: PlayerSelector
   m_EditorClassIdentifier: 
   AllPlayers:
-  - Name: Recon Soldier
-    Preview: {fileID: 21300000, guid: d52ded93aba596d4a958d709c14113b2, type: 3}
-    Prefab: {fileID: 1353458154535538, guid: 353d635db0698974b963c4153ac19a5d, type: 3}
+  - Name: Amber
+    Preview: {fileID: 21300000, guid: 782efb4a176b26846b087fd05886f4b2, type: 3}
+    Prefab: {fileID: 5530997157587205177, guid: ea57b08791ae13c4492bcd6f1210b4d0,
+      type: 3}
     Unlockability:
       UnlockMethod: 0
       ItemType: 2
@@ -24,9 +25,10 @@ MonoBehaviour:
       NoAllowedCoins: 
     ID: 0
     team: 2
-  - Name: Delta Soldier
-    Preview: {fileID: 21300000, guid: fe8dd5eb451d51540b9478032e877276, type: 3}
-    Prefab: {fileID: 1568668014787886, guid: 8b43b97c50cac1d43a7c27ca8b6a6cdf, type: 3}
+  - Name: Barbara
+    Preview: {fileID: 21300000, guid: 74f771f6502d9204bb2f73f059efc9c5, type: 3}
+    Prefab: {fileID: 6690929215145750848, guid: c40d396ecffcf2443a7a97a258848c2d,
+      type: 3}
     Unlockability:
       UnlockMethod: 0
       ItemType: 2
@@ -35,32 +37,8 @@ MonoBehaviour:
       NoAllowedCoins: 
     ID: 1
     team: 1
-  - Name: West Soldier
-    Preview: {fileID: 21300000, guid: bf24a65d9e31d5642a6b0ff511ee58ef, type: 3}
-    Prefab: {fileID: 7101680813762821585, guid: 51aa405c8c9dcb04c836a9f300aee26f,
-      type: 3}
-    Unlockability:
-      UnlockMethod: 1
-      ItemType: 2
-      Price: 500
-      UnlockAtLevel: 0
-      NoAllowedCoins: 
-    ID: 2
-    team: 2
-  - Name: Winter Soldier
-    Preview: {fileID: 21300000, guid: 1b06f477d90517943a96dca5f666ffa5, type: 3}
-    Prefab: {fileID: 8990095237878209855, guid: bcf32f8651fa94c4eb781cc08f1423ee,
-      type: 3}
-    Unlockability:
-      UnlockMethod: 1
-      ItemType: 2
-      Price: 500
-      UnlockAtLevel: 0
-      NoAllowedCoins: 
-    ID: 3
-    team: 1
-  Team1Players: 0000000003000000
-  Team2Players: 0100000002000000
+  Team1Players: 00000000
+  Team2Players: 01000000
   FFAPlayers: 01000000000000000200000003000000
   Team1Bots:
   - {fileID: 114101145339246268, guid: 424e7da58c2e1de49aef138757fca69a, type: 3}

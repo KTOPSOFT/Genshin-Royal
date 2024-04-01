@@ -3152,7 +3152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DefaultServer: 6
   ShowPhotonStatistics: 1
-  MaxPing: f4010000c800000064000000e803000000000000
+  MaxPing: 1027000010270000102700001027000010270000
 --- !u!1 &2873178322567228729
 GameObject:
   m_ObjectHideFlags: 0
@@ -3751,7 +3751,7 @@ PrefabInstance:
     - target: {fileID: 6852793211162806926, guid: 88411bd00e4bd9f43a283314addb1a28,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -199.99997
+      value: -200
       objectReference: {fileID: 0}
     - target: {fileID: 6852928596282178650, guid: 88411bd00e4bd9f43a283314addb1a28,
         type: 3}
