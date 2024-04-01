@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AllPlayers:
   - Name: Amber
-    Preview: {fileID: 21300000, guid: 782efb4a176b26846b087fd05886f4b2, type: 3}
+    Preview: {fileID: 21300000, guid: a9aa8bc32f2544c46924e7b9ebe819de, type: 3}
     Prefab: {fileID: 5530997157587205177, guid: ea57b08791ae13c4492bcd6f1210b4d0,
       type: 3}
     Unlockability:
@@ -26,7 +26,7 @@ MonoBehaviour:
     ID: 0
     team: 2
   - Name: Barbara
-    Preview: {fileID: 21300000, guid: 74f771f6502d9204bb2f73f059efc9c5, type: 3}
+    Preview: {fileID: 21300000, guid: 7578109f76aa9dc48970a4ee8e3eeeda, type: 3}
     Prefab: {fileID: 6690929215145750848, guid: c40d396ecffcf2443a7a97a258848c2d,
       type: 3}
     Unlockability:
@@ -37,8 +37,56 @@ MonoBehaviour:
       NoAllowedCoins: 
     ID: 1
     team: 1
-  Team1Players: 00000000
-  Team2Players: 01000000
+  - Name: Candace
+    Preview: {fileID: 21300000, guid: 054058a8322c95f47aca6dea6ce3ae9a, type: 3}
+    Prefab: {fileID: 3859181954303503008, guid: 47ed8eb079024864ab92fef619663156,
+      type: 3}
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 2
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    ID: 1
+    team: 1
+  - Name: Diluc
+    Preview: {fileID: 21300000, guid: c3035b9299a903544a446a780145fcd8, type: 3}
+    Prefab: {fileID: 8255664456213404238, guid: 87bee2b2e557cf44d942511c74203447,
+      type: 3}
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 2
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    ID: 1
+    team: 1
+  - Name: Eula
+    Preview: {fileID: 21300000, guid: 25a549d19632bdc4893e1c7d5a7dbf33, type: 3}
+    Prefab: {fileID: 2754862386817246748, guid: 413ba742f546fa34dac07340c312893e,
+      type: 3}
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 2
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    ID: 1
+    team: 1
+  - Name: Gorou
+    Preview: {fileID: 21300000, guid: 51c725b2edd0bc442878680edba4db53, type: 3}
+    Prefab: {fileID: 3920057921095973320, guid: 8b6d4a7f97cbd3945ab89d19070acaa8,
+      type: 3}
+    Unlockability:
+      UnlockMethod: 0
+      ItemType: 2
+      Price: 0
+      UnlockAtLevel: 0
+      NoAllowedCoins: 
+    ID: 1
+    team: 1
+  Team1Players: 000000000100000002000000030000000400000005000000
+  Team2Players: 000000000100000002000000030000000400000005000000
   FFAPlayers: 01000000000000000200000003000000
   Team1Bots:
   - {fileID: 114101145339246268, guid: 424e7da58c2e1de49aef138757fca69a, type: 3}

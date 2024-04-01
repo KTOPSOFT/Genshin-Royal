@@ -75,10 +75,10 @@ MonoBehaviour:
   OnDisconnectScene: MainMenu
   highLightColor: {r: 0.44827604, g: 0, b: 1, a: 1}
   AllScenes:
-  - ShowName: Mondstadt Villeage
-    m_Scene: {fileID: 102900000, guid: faea882dc39650a4c868f3d97bf13c91, type: 3}
-    RealSceneName: DemoScene
-    Preview: {fileID: 21300000, guid: e6d036e053eef504b95f11199e416441, type: 3}
+  - ShowName: Mondstadt Village
+    m_Scene: {fileID: 102900000, guid: f92dfda6574c0dd4bb785010bc97a9a0, type: 3}
+    RealSceneName: Suntail Village
+    Preview: {fileID: 21300000, guid: a8afb03e00453a04a97b0797c0eb50bc, type: 3}
     NoAllowedGameModes: 
   AllWeapons:
   - Name: Rifle
@@ -349,8 +349,8 @@ MonoBehaviour:
   Team1Color: {r: 1, g: 0.3915094, b: 0.4497125, a: 1}
   Team2Name: Inazuma
   Team2Color: {r: 1, g: 0.3820755, b: 0.7938901, a: 1}
-  Player1: {fileID: 1269315973783663627, guid: 47ed8eb079024864ab92fef619663156, type: 3}
-  Player2: {fileID: 148232367451769757, guid: 353d635db0698974b963c4153ac19a5d, type: 3}
+  Player1: {fileID: 5999713037294158776, guid: 87bee2b2e557cf44d942511c74203447, type: 3}
+  Player2: {fileID: 3914898014567298408, guid: 8b6d4a7f97cbd3945ab89d19070acaa8, type: 3}
   BotTeam1: {fileID: 114101145339246268, guid: 424e7da58c2e1de49aef138757fca69a, type: 3}
   BotTeam2: {fileID: 1562605632882424370, guid: e8aa4daeae861cd4d98c01198ff31061,
     type: 3}
@@ -360,10 +360,10 @@ MonoBehaviour:
     type: 2}
   sceneLoader: {fileID: 11400000, guid: 29378ef374afdda4997808cca6533c28, type: 2}
   GameTeam:
-  - UserName: Lovatto
+  - UserName: KTOPSOFT
     m_Role: 0
     Password: 123456
-    m_Color: {r: 1, g: 0, b: 0.1862073, a: 1}
+    m_Color: {r: 1, g: 0.95996034, b: 0.36320752, a: 1}
   isChating: 0
   _MFPSLicense: 
   _MFPSFromStore: 0

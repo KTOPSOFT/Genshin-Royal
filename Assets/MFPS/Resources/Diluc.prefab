@@ -217239,6 +217239,7 @@ GameObject:
   - component: {fileID: 8241669077909118528}
   - component: {fileID: 3321397995441687119}
   - component: {fileID: 7763521614840752367}
+  - component: {fileID: 7966039966665908126}
   m_Layer: 12
   m_Name: Diluc
   m_TagString: Player
@@ -217670,6 +217671,23 @@ MonoBehaviour:
   m_playerAnimator: {fileID: 2746047054242013967}
   m_botAimTarget: {fileID: 4219964733788967781}
   EditorSelectedGun: {fileID: 7581731426994840747}
+--- !u!114 &7966039966665908126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8255664456213404238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1f95ad67f29c8d478244d985c07f1e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewState: {fileID: 11400000, guid: b5135b0561995fe4abd2f9cff3388588, type: 2}
+  viewAimState: {fileID: 11400000, guid: 61d05f33ffdcf5c4d9a08780b6bd8189, type: 2}
+  collisionOffset: 0.2
+  collisionUpdateFrequency: 15
+  m_overrideViewState: {fileID: 0}
 --- !u!1 &8257572283553257407
 GameObject:
   m_ObjectHideFlags: 0
@@ -249759,7 +249777,7 @@ Camera:
   m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294966015
+    m_Bits: 48695
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

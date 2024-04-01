@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Genshin Royal/KTOP_Splash/Splash.unity
+    guid: e684d6c243e526c408e9946336e14c8e
+  - enabled: 1
     path: Assets/MFPS/Scenes/MainMenu.unity
     guid: fcfe9637e4043474a98d431ae71e26c2
   - enabled: 1
-    path: Assets/MFPS/Scenes/ExampleLevel.unity
-    guid: 7b433244bb0354246a7c6a8c682e5441
-  - enabled: 1
-    path: Assets/Polyart/PolyartStudio/DreamscapeVillage/Scenes/DemoScene.unity
-    guid: faea882dc39650a4c868f3d97bf13c91
+    path: Assets/Suntail Village/Demo/Suntail Village.unity
+    guid: f92dfda6574c0dd4bb785010bc97a9a0
   m_configObjects: {}
