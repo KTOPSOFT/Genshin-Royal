@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Suntail Village/Demo/Suntail Village.unity
     guid: f92dfda6574c0dd4bb785010bc97a9a0
+  - enabled: 1
+    path: Assets/Top-Down Forest Ruins/demo/Sumeru_Forest.unity
+    guid: 11534e8c076412c4691e968f14fef4c0
   m_configObjects: {}
