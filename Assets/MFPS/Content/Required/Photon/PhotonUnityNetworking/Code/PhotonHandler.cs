@@ -9,15 +9,18 @@
 // ----------------------------------------------------------------------------
 
 
+
 namespace Photon.Pun
 {
     using System;
     using System.Collections.Generic;
+    using System.Diagnostics;
     using ExitGames.Client.Photon;
     using Photon.Realtime;
     using UnityEngine;
     using UnityEngine.Profiling;
 
+    using Debug = UnityEngine.Debug;
 
     /// <summary>
     /// Internal MonoBehaviour that allows Photon to run an Update loop.
@@ -32,7 +35,11 @@ namespace Photon.Pun
             {
                 if (instance == null)
                 {
+                    #if UNITY_6000_0_OR_NEWER
+                    instance = FindFirstObjectByType<PhotonHandler>();
+                    #else
                     instance = FindObjectOfType<PhotonHandler>();
+                    #endif
                     if (instance == null)
                     {
                         GameObject obj = new GameObject();
@@ -48,7 +55,7 @@ namespace Photon.Pun
 
         /// <summary>Limits the number of datagrams that are created in each LateUpdate.</summary>
         /// <remarks>Helps spreading out sending of messages minimally.</remarks>
-        public static int MaxDatagrams = 3;
+        public static int MaxDatagrams = 10;
 
         /// <summary>Signals that outgoing messages should be sent in the next LateUpdate call.</summary>
         /// <remarks>Up to MaxDatagrams are created to send queued messages.</remarks>
@@ -62,15 +69,19 @@ namespace Photon.Pun
 
         protected internal int UpdateIntervalOnSerialize; // time [ms] between consecutive RunViewUpdate calls (sending syncs, etc)
 
-        private int nextSendTickCount;
 
-        private int nextSendTickCountOnSerialize;
+        private readonly Stopwatch swSendOutgoing = new Stopwatch();
+
+        private readonly Stopwatch swViewUpdate = new Stopwatch();
 
         private SupportLogger supportLoggerComponent;
 
 
         protected override void Awake()
         {
+            this.swSendOutgoing.Start();
+            this.swViewUpdate.Start();
+
             if (instance == null || ReferenceEquals(this, instance))
             {
                 instance = this;
@@ -162,16 +173,15 @@ namespace Photon.Pun
             }
             #endif
 
-            int currentMsSinceStart = (int)(Time.realtimeSinceStartup * 1000); // avoiding Environment.TickCount, which could be negative on long-running platforms
-            if (PhotonNetwork.IsMessageQueueRunning && currentMsSinceStart > this.nextSendTickCountOnSerialize)
+            if (PhotonNetwork.IsMessageQueueRunning && this.swViewUpdate.ElapsedMilliseconds >= this.UpdateIntervalOnSerialize - SerializeRateFrameCorrection)
             {
                 PhotonNetwork.RunViewUpdate();
-                this.nextSendTickCountOnSerialize = currentMsSinceStart + this.UpdateIntervalOnSerialize - SerializeRateFrameCorrection;
-                this.nextSendTickCount = 0; // immediately send when synchronization code was running
+                this.swViewUpdate.Restart();
+                SendAsap = true; // immediately send when synchronization code was running
             }
 
-            currentMsSinceStart = (int)(Time.realtimeSinceStartup * 1000);
-            if (SendAsap || currentMsSinceStart > this.nextSendTickCount)
+            
+            if (SendAsap || this.swSendOutgoing.ElapsedMilliseconds >= this.UpdateInterval)
             {
                 SendAsap = false;
                 bool doSend = true;
@@ -184,8 +194,12 @@ namespace Photon.Pun
                     sendCounter++;
                     Profiler.EndSample();
                 }
+                if (sendCounter >= MaxDatagrams)
+                {
+                    SendAsap = true;
+                }
 
-                this.nextSendTickCount = currentMsSinceStart + this.UpdateInterval;
+                this.swSendOutgoing.Restart();
             }
         }
 
@@ -316,8 +330,9 @@ namespace Photon.Pun
 
         public void OnLeftRoom()
         {
-            // Destroy spawned objects and reset scene objects
-            PhotonNetwork.LocalCleanupAnythingInstantiated(true);
+            // destroying the objects here is not a good option. LocalCleanupAnythingInstantiated is called from another place, which checks auto cleanup properly, too.
+            //// Destroy spawned objects and reset scene objects
+            //PhotonNetwork.LocalCleanupAnythingInstantiated(true);
         }
 
 

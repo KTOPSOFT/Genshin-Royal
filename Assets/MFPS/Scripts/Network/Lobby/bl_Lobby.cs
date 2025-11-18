@@ -390,35 +390,36 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
     /// </summary>
     public void OnNoRoomsToJoin(short returnCode, string message)
     {
+        bl_LobbyUI.Instance.ChangeWindow("host");
         Debug.Log("No games to join found on matchmaking, creating one.");
         //create random room properties
-        int scid = Random.Range(0, bl_GameData.Instance.AllScenes.Count);
-        var mapInfo = bl_GameData.Instance.AllScenes[scid];
+        //int scid = Random.Range(0, bl_GameData.Instance.AllScenes.Count);
+        //var mapInfo = bl_GameData.Instance.AllScenes[scid];
 
-        var allModes = mapInfo.GetAllowedGameModes(GameModes);
-        int modeRandom = Random.Range(0, allModes.Length);
-        var gameMode = allModes[modeRandom];
+        //var allModes = mapInfo.GetAllowedGameModes(GameModes);
+        //int modeRandom = Random.Range(0, allModes.Length);
+        //var gameMode = allModes[modeRandom];
 
-        int maxPlayersRandom = Random.Range(0, gameMode.maxPlayers.Length);
-        int timeRandom = Random.Range(0, gameMode.timeLimits.Length);
-        int randomGoal = Random.Range(0, gameMode.GameGoalsOptions.Length);
+        //int maxPlayersRandom = Random.Range(0, gameMode.maxPlayers.Length);
+        //int timeRandom = Random.Range(0, gameMode.timeLimits.Length);
+        //int randomGoal = Random.Range(0, gameMode.GameGoalsOptions.Length);
 
-        var roomInfo = new MFPSRoomInfo();
-        roomInfo.roomName = string.Format("[PUBLIC] {0}{1}", bl_PhotonNetwork.NickName.Substring(0, 2), Random.Range(0, 9999));
-        roomInfo.gameMode = gameMode.gameMode;
-        roomInfo.time = gameMode.timeLimits[timeRandom];
-        roomInfo.sceneName = mapInfo.RealSceneName;
-        roomInfo.roundStyle = gameMode.GetAllowedRoundMode();
-        roomInfo.autoTeamSelection = gameMode.AutoTeamSelection;
-        roomInfo.mapName = mapInfo.ShowName;
-        roomInfo.goal = gameMode.GetGoalValue(randomGoal);
-        roomInfo.friendlyFire = false;
-        roomInfo.maxPing = MaxPing[CurrentMaxPing];
-        roomInfo.password = string.Empty;
-        roomInfo.withBots = gameMode.supportBots;
-        roomInfo.maxPlayers = gameMode.maxPlayers[maxPlayersRandom];
+        //var roomInfo = new MFPSRoomInfo();
+        //roomInfo.roomName = string.Format("[PUBLIC] {0}{1}", bl_PhotonNetwork.NickName.Substring(0, 2), Random.Range(0, 9999));
+        //roomInfo.gameMode = gameMode.gameMode;
+        //roomInfo.time = gameMode.timeLimits[timeRandom];
+        //roomInfo.sceneName = mapInfo.RealSceneName;
+        //roomInfo.roundStyle = gameMode.GetAllowedRoundMode();
+        //roomInfo.autoTeamSelection = gameMode.AutoTeamSelection;
+        //roomInfo.mapName = mapInfo.ShowName;
+        //roomInfo.goal = gameMode.GetGoalValue(randomGoal);
+        //roomInfo.friendlyFire = false;
+        //roomInfo.maxPing = MaxPing[CurrentMaxPing];
+        //roomInfo.password = string.Empty;
+        //roomInfo.withBots = false;
+        //roomInfo.maxPlayers = gameMode.maxPlayers[maxPlayersRandom];
 
-        CreateRoom(roomInfo);
+        //CreateRoom(roomInfo);
     }
 
     /// <summary>

@@ -30,7 +30,7 @@ namespace Photon.Chat
         public string NameServerHost = "ns.photonengine.io";
 
         /// <summary>Name Server port per protocol (the UDP port is different than TCP, etc).</summary>
-        private static readonly Dictionary<ConnectionProtocol, int> ProtocolToNameServerPort = new Dictionary<ConnectionProtocol, int>() { { ConnectionProtocol.Udp, 5058 }, { ConnectionProtocol.Tcp, 4533 }, { ConnectionProtocol.WebSocket, 9093 }, { ConnectionProtocol.WebSocketSecure, 19093 } }; //, { ConnectionProtocol.RHttp, 6063 } };
+        private static readonly Dictionary<ConnectionProtocol, int> ProtocolToNameServerPort = new Dictionary<ConnectionProtocol, int>() { { ConnectionProtocol.Udp, 5058 }, { ConnectionProtocol.Tcp, 4533 }, { ConnectionProtocol.WebSocket, 80 }, { ConnectionProtocol.WebSocketSecure, 443 } };
 
         /// <summary>Name Server Address for Photon Cloud (based on current protocol). You can use the default values and usually won't have to set this value.</summary>
         public string NameServerAddress { get { return this.GetNameServerAddress(); } }
@@ -125,17 +125,6 @@ namespace Photon.Chat
             }
         }
 
-        /// <summary> Connects to NameServer. </summary>
-        /// <returns>If the connection attempt could be sent.</returns>
-        public bool Connect()
-        {
-            if (this.DebugOut >= DebugLevel.INFO)
-            {
-                this.Listener.DebugReturn(DebugLevel.INFO, "Connecting to nameserver " + this.NameServerAddress);
-            }
-
-            return this.Connect(this.NameServerAddress, "NameServer");
-        }
 
         /// <summary> Authenticates on NameServer. </summary>
         /// <returns>If the authentication operation request could be sent.</returns>

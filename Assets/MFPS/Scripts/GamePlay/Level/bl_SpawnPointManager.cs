@@ -89,7 +89,9 @@ public class bl_SpawnPointManager : MonoBehaviour
     public bl_SpawnPointBase GetRandomSpawnPoint(Team team)
     {
         var teamPoints = GetListOfPointsForTeam(team);
-        if(teamPoints.Count <= 0) return null;
+        //if (teamPoints == null)
+        //    GetSpawnPointForTeam(team, spawnMode);
+        if (teamPoints.Count <= 0) return null;
 
         return teamPoints[Random.Range(0, teamPoints.Count)];
     }

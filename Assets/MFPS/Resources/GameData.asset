@@ -82,7 +82,7 @@ MonoBehaviour:
     NoAllowedGameModes: 
   - ShowName: Sumeru Forest
     m_Scene: {fileID: 102900000, guid: 11534e8c076412c4691e968f14fef4c0, type: 3}
-    RealSceneName: 
+    RealSceneName: Sumeru_Forest
     Preview: {fileID: 21300000, guid: 08bd1819ac1d69343b4e3e2e1509207f, type: 3}
     NoAllowedGameModes: 
   AllWeapons:
