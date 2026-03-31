@@ -2,21 +2,32 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TCP2_Demo Robot PBS
-  m_Shader: {fileID: 4800000, guid: 80412fe88398cd147be3aacebe2c3fe3, type: 3}
-  m_ShaderKeywords: OUTLINES TCP2_COLORS_AS_NORMALS TCP2_DISABLE_WRAPPED_LIGHT TCP2_SPEC_TOON
-    TCP2_STYLIZED_FRESNEL TCP2_UV_NORMALS_FULL _EMISSION _NORMALMAP
+  m_Shader: {fileID: 10703, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - OUTLINES
+  - TCP2_COLORS_AS_NORMALS
+  - TCP2_DISABLE_WRAPPED_LIGHT
+  - TCP2_SPEC_TOON
+  - TCP2_STYLIZED_FRESNEL
+  - TCP2_UV_NORMALS_FULL
+  - _EMISSION
+  - _NORMALMAP
   m_LightmapFlags: 1
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -68,6 +79,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -122,3 +134,4 @@ Material:
     - _RimDir: {r: 0, g: 0, b: 1, a: 0}
     - _SColor: {r: 0.23484801, g: 0.43726364, b: 0.716, a: 1}
     - _SpecColor: {r: 0.60294116, g: 0.60294116, b: 0.60294116, a: 1}
+  m_BuildTextureStacks: []

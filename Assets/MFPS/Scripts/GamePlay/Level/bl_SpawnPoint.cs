@@ -25,7 +25,7 @@ public class bl_SpawnPoint : bl_SpawnPointBase
     [LovattoToogle] public bool randomRotation = false;
 
     RaycastHit hitInfo;
-    private const float BASE_VERTICAL_THRESHOLD = 0.01f; // if your players fall of the map after spawn, try to increase this value.
+    private const float BASE_VERTICAL_THRESHOLD = 0.5f; // if your players fall of the map after spawn, try to increase this value.
 
     /// <summary>
     /// 
@@ -67,7 +67,8 @@ public class bl_SpawnPoint : bl_SpawnPointBase
         if (shape == Shape.Dome)
         {
             s = Random.insideUnitSphere * space;
-            s = transform.position + new Vector3(s.x, BASE_VERTICAL_THRESHOLD, s.z);
+            // Use spawn point's Y position as base instead of fixed threshold
+            s = transform.position + new Vector3(s.x, 0, s.z);
         }
         else if (shape == Shape.Cube)
         {
@@ -84,9 +85,40 @@ public class bl_SpawnPoint : bl_SpawnPointBase
     /// </summary>
     public Vector3 SnapPositionToGround(Vector3 position)
     {
-        if (Physics.SphereCast(new Ray(position + (Vector3.up * groundSnapLimit), Vector3.down), 0.1f, out hitInfo, groundSnapLimit * 2.0f, bl_GameData.TagsAndLayerSettings.EnvironmentOnly))
+        // First, try to find ground below the position
+        float maxDistance = groundSnapLimit * 3.0f; // Increased search distance
+        Vector3 rayStart = position + (Vector3.up * groundSnapLimit);
+        
+        if (Physics.SphereCast(new Ray(rayStart, Vector3.down), 0.1f, out hitInfo, maxDistance, bl_GameData.TagsAndLayerSettings.EnvironmentOnly))
         {
-            if (hitInfo.collider != null) position.y = hitInfo.point.y + BASE_VERTICAL_THRESHOLD;
+            if (hitInfo.collider != null)
+            {
+                position.y = hitInfo.point.y + BASE_VERTICAL_THRESHOLD;
+                return position;
+            }
+        }
+        
+        // If no ground found below, try casting upward from below the position
+        rayStart = position - (Vector3.up * groundSnapLimit);
+        if (Physics.SphereCast(new Ray(rayStart, Vector3.up), 0.1f, out hitInfo, maxDistance, bl_GameData.TagsAndLayerSettings.EnvironmentOnly))
+        {
+            if (hitInfo.collider != null)
+            {
+                position.y = hitInfo.point.y + BASE_VERTICAL_THRESHOLD;
+                return position;
+            }
+        }
+        
+        // Fallback: If ground detection fails, use spawn point's Y position with threshold
+        // This prevents spawning underground
+        if (position.y < transform.position.y - 0.1f)
+        {
+            position.y = transform.position.y + BASE_VERTICAL_THRESHOLD;
+        }
+        else if (position.y < transform.position.y + BASE_VERTICAL_THRESHOLD)
+        {
+            // Ensure minimum height above spawn point
+            position.y = transform.position.y + BASE_VERTICAL_THRESHOLD;
         }
 
         return position;

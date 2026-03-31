@@ -2,20 +2,26 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TCP2_Demo_UnityChan style4 flat skin
   m_Shader: {fileID: 4800000, guid: fab2e4944cce90045b2ff951cf72f967, type: 3}
-  m_ShaderKeywords: _EMISSION
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - TCP2_UV_NORMALS_FULL
+  m_InvalidKeywords:
+  - _EMISSION
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -79,6 +85,7 @@ Material:
         m_Texture: {fileID: 2800000, guid: 2dd5db1f3356deb4dbf2dfec55c37dce, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BumpScale: 0
     - _Cutoff: 0.5
@@ -89,6 +96,8 @@ Material:
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
+    - _NormalsSource: 0
+    - _NormalsUVType: 0
     - _OcclusionStrength: 1
     - _OutlineWidth: 0.2
     - _Parallax: 0.02
@@ -123,3 +132,4 @@ Material:
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _VColorBlendOffset: {r: 0, g: 0, b: 0, a: 0}
     - _VColorBlendSmooth: {r: 0.25, g: 0.25, b: 0.25, a: 0.25}
+  m_BuildTextureStacks: []

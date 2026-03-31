@@ -1,26 +1,62 @@
 fileFormatVersion: 2
 guid: 198e6130c2cc3d7448eb77d87b149b5c
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: bar1
-    100002: bar2
-    100004: bars_middle
-    100006: //RootNode
-    400000: bar1
-    400002: bar2
-    400004: bars_middle
-    400006: //RootNode
-    2300000: bar1
-    2300002: bar2
-    2300004: bars_middle
-    3300000: bar1
-    3300002: bar2
-    3300004: bars_middle
-    4300000: bars_middle
-    4300002: bar2
-    4300004: bar1
-    2186277476908879412: ImportLogs
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: bar1
+  - first:
+      1: 100002
+    second: bar2
+  - first:
+      1: 100004
+    second: bars_middle
+  - first:
+      1: 100006
+    second: //RootNode
+  - first:
+      4: 400000
+    second: bar1
+  - first:
+      4: 400002
+    second: bar2
+  - first:
+      4: 400004
+    second: bars_middle
+  - first:
+      4: 400006
+    second: //RootNode
+  - first:
+      23: 2300000
+    second: bar1
+  - first:
+      23: 2300002
+    second: bar2
+  - first:
+      23: 2300004
+    second: bars_middle
+  - first:
+      33: 3300000
+    second: bar1
+  - first:
+      33: 3300002
+    second: bar2
+  - first:
+      33: 3300004
+    second: bars_middle
+  - first:
+      43: 4300000
+    second: bars_middle
+  - first:
+      43: 4300002
+    second: bar2
+  - first:
+      43: 4300004
+    second: bar1
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -33,7 +69,7 @@ ModelImporter:
       name: No Name
     second: {fileID: 2100000, guid: ffbe3aa85ebb33c43974ad21759e687f, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -42,6 +78,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -63,40 +100,51 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 2
-    meshCompression: 0
+    meshCompression: 3
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 0
-    importBlendShapes: 1
+    importBlendShapes: 0
     importCameras: 0
     importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 3
+    tangentImportMode: 2
     normalCalculationMode: 0
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -106,13 +154,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 2
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

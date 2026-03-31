@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f136cd7a0bd419c439abc0e93ac3c15a, type: 3}
   m_Name: CameraViewSettings
   m_EditorClassIdentifier: 
-  gamePlayerView: 2
+  gamePlayerView: 1
   SwitchViewKey: 112
   detectCameraCollision: 1
   collisionMask:

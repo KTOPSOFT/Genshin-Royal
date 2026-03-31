@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Fire 1
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 1
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -3230,7 +3230,8 @@ AnimationClip:
     m_HeightFromFeet: 0
     m_Mirror: 0
   m_EditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3258,7 +3259,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3286,7 +3289,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3314,7 +3319,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3342,7 +3349,9 @@ AnimationClip:
     path: ArmsPayDay
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3370,7 +3379,9 @@ AnimationClip:
     path: ArmsPayDay
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3398,7 +3409,9 @@ AnimationClip:
     path: ArmsPayDay
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3426,7 +3439,9 @@ AnimationClip:
     path: ArmsPayDay/Neutre
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3454,7 +3469,9 @@ AnimationClip:
     path: ArmsPayDay/Neutre
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3482,7 +3499,9 @@ AnimationClip:
     path: ArmsPayDay/Neutre
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3510,7 +3529,9 @@ AnimationClip:
     path: Reference
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3538,7 +3559,9 @@ AnimationClip:
     path: Reference
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3566,7 +3589,9 @@ AnimationClip:
     path: Reference
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3594,7 +3619,9 @@ AnimationClip:
     path: Reference/FpsArms
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3622,7 +3649,9 @@ AnimationClip:
     path: Reference/FpsArms
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3650,7 +3679,9 @@ AnimationClip:
     path: Reference/FpsArms
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3678,7 +3709,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3706,7 +3739,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3734,7 +3769,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3762,7 +3799,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3790,7 +3829,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3818,7 +3859,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3846,7 +3889,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3874,7 +3919,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3902,7 +3949,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3930,7 +3979,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3958,7 +4009,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -3986,7 +4039,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4014,7 +4069,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4042,7 +4099,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4070,7 +4129,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4098,7 +4159,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4126,7 +4189,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4154,7 +4219,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4182,7 +4249,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4210,7 +4279,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4238,7 +4309,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4266,7 +4339,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4294,7 +4369,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4322,7 +4399,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4350,7 +4429,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4378,7 +4459,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4406,7 +4489,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4434,7 +4519,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4462,7 +4549,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4490,7 +4579,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4518,7 +4609,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4546,7 +4639,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4574,7 +4669,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4602,7 +4699,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4630,7 +4729,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4658,7 +4759,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4686,7 +4789,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4714,7 +4819,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4742,7 +4849,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4770,7 +4879,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4798,7 +4909,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4826,7 +4939,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4854,7 +4969,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4882,7 +4999,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4910,7 +5029,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4938,7 +5059,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4966,7 +5089,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -4994,7 +5119,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5022,7 +5149,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5050,7 +5179,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5078,7 +5209,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5106,7 +5239,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5134,7 +5269,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5162,7 +5299,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5190,7 +5329,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5218,7 +5359,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5246,7 +5389,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5274,7 +5419,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5302,7 +5449,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5330,7 +5479,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5358,7 +5509,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5386,7 +5539,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5414,7 +5569,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5442,7 +5599,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5470,7 +5629,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5498,7 +5659,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5526,7 +5689,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5554,7 +5719,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5582,7 +5749,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5610,7 +5779,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5638,7 +5809,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5666,7 +5839,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5694,7 +5869,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5722,7 +5899,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5750,7 +5929,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5778,7 +5959,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5806,7 +5989,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5834,7 +6019,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5889,7 +6076,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5944,7 +6133,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -5999,7 +6190,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6027,7 +6220,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6055,7 +6250,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6083,7 +6280,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6111,7 +6310,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6139,7 +6340,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6167,7 +6370,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6195,7 +6400,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6223,7 +6430,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6251,7 +6460,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6279,7 +6490,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6307,7 +6520,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6335,7 +6550,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6363,7 +6580,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6391,7 +6610,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6419,7 +6640,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6447,7 +6670,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6475,7 +6700,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6503,7 +6730,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6531,7 +6760,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6559,7 +6790,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6587,7 +6820,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6615,7 +6850,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6643,7 +6880,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6671,7 +6910,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6699,7 +6940,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6727,7 +6970,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6755,7 +7000,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6783,7 +7030,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6811,7 +7060,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6839,7 +7090,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6867,7 +7120,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6895,7 +7150,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6923,7 +7180,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6951,7 +7210,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -6979,7 +7240,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7007,7 +7270,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7035,7 +7300,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7063,7 +7330,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7091,7 +7360,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7119,7 +7390,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7147,7 +7420,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7175,7 +7450,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7203,7 +7480,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7231,7 +7510,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7259,7 +7540,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7287,7 +7570,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7315,7 +7600,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7343,7 +7630,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7371,7 +7660,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7399,7 +7690,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7427,7 +7720,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7455,7 +7750,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7483,7 +7780,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7511,7 +7810,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7539,7 +7840,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7567,7 +7870,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7595,7 +7900,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7623,7 +7930,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7651,7 +7960,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7679,7 +7990,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7707,7 +8020,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7735,7 +8050,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7763,7 +8080,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7791,7 +8110,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7819,7 +8140,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7847,7 +8170,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7875,7 +8200,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7903,7 +8230,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7931,7 +8260,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7959,7 +8290,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -7987,7 +8320,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8015,7 +8350,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8043,7 +8380,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8071,7 +8410,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8099,7 +8440,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8127,7 +8470,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8155,7 +8500,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8183,7 +8530,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8211,7 +8560,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8239,7 +8590,9 @@ AnimationClip:
     path: ArmsPayDay
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8267,7 +8620,9 @@ AnimationClip:
     path: ArmsPayDay
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8295,7 +8650,9 @@ AnimationClip:
     path: ArmsPayDay
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8323,7 +8680,9 @@ AnimationClip:
     path: ArmsPayDay
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8351,7 +8710,9 @@ AnimationClip:
     path: ArmsPayDay/Neutre
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8379,7 +8740,9 @@ AnimationClip:
     path: ArmsPayDay/Neutre
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8407,7 +8770,9 @@ AnimationClip:
     path: ArmsPayDay/Neutre
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8435,7 +8800,9 @@ AnimationClip:
     path: ArmsPayDay/Neutre
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8463,7 +8830,9 @@ AnimationClip:
     path: Reference
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8491,7 +8860,9 @@ AnimationClip:
     path: Reference
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8519,7 +8890,9 @@ AnimationClip:
     path: Reference
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8547,7 +8920,9 @@ AnimationClip:
     path: Reference
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8575,7 +8950,9 @@ AnimationClip:
     path: Reference/FpsArms
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8603,7 +8980,9 @@ AnimationClip:
     path: Reference/FpsArms
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8631,7 +9010,9 @@ AnimationClip:
     path: Reference/FpsArms
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8659,7 +9040,9 @@ AnimationClip:
     path: Reference/FpsArms
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8687,7 +9070,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8715,7 +9100,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8743,7 +9130,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8771,7 +9160,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8835,7 +9226,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8899,7 +9292,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -8963,7 +9358,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9027,7 +9424,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9055,7 +9454,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9083,7 +9484,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9111,7 +9514,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9139,7 +9544,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9167,7 +9574,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9195,7 +9604,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9223,7 +9634,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9251,7 +9664,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9279,7 +9694,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9307,7 +9724,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9335,7 +9754,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9363,7 +9784,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9391,7 +9814,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9419,7 +9844,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9447,7 +9874,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9475,7 +9904,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9503,7 +9934,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9531,7 +9964,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9559,7 +9994,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9587,7 +10024,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9615,7 +10054,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9643,7 +10084,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9671,7 +10114,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9699,7 +10144,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9727,7 +10174,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9755,7 +10204,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9783,7 +10234,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9811,7 +10264,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9839,7 +10294,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9867,7 +10324,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9895,7 +10354,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9923,7 +10384,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9951,7 +10414,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -9979,7 +10444,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10007,7 +10474,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10035,7 +10504,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10063,7 +10534,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10091,7 +10564,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10119,7 +10594,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10147,7 +10624,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10175,7 +10654,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10203,7 +10684,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10231,7 +10714,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10259,7 +10744,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10287,7 +10774,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10315,7 +10804,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10343,7 +10834,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10371,7 +10864,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10399,7 +10894,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10427,7 +10924,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10455,7 +10954,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10483,7 +10984,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10511,7 +11014,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10539,7 +11044,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10567,7 +11074,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10595,7 +11104,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10623,7 +11134,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10651,7 +11164,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10679,7 +11194,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10707,7 +11224,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10735,7 +11254,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10763,7 +11284,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10791,7 +11314,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10819,7 +11344,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10847,7 +11374,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10875,7 +11404,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10903,7 +11434,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10931,7 +11464,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10959,7 +11494,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -10987,7 +11524,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11015,7 +11554,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11043,7 +11584,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11071,7 +11614,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11099,7 +11644,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11127,7 +11674,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11155,7 +11704,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11183,7 +11734,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11211,7 +11764,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11239,7 +11794,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11267,7 +11824,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11295,7 +11854,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11323,7 +11884,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11351,7 +11914,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11379,7 +11944,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11407,7 +11974,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11435,7 +12004,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11463,7 +12034,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11491,7 +12064,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11564,7 +12139,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11637,7 +12214,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11710,7 +12289,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11783,7 +12364,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11811,7 +12394,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11839,7 +12424,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11867,7 +12454,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11895,7 +12484,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11923,7 +12514,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11951,7 +12544,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -11979,7 +12574,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12007,7 +12604,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12035,7 +12634,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12063,7 +12664,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12091,7 +12694,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12119,7 +12724,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12147,7 +12754,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12175,7 +12784,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12203,7 +12814,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12231,7 +12844,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12259,7 +12874,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12287,7 +12904,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12315,7 +12934,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12343,7 +12964,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12371,7 +12994,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12399,7 +13024,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12427,7 +13054,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12455,7 +13084,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12483,7 +13114,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12511,7 +13144,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12539,7 +13174,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12567,7 +13204,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12595,7 +13234,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12623,7 +13264,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12651,7 +13294,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12679,7 +13324,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12707,7 +13354,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12735,7 +13384,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12763,7 +13414,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12791,7 +13444,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12819,7 +13474,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12847,7 +13504,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12875,7 +13534,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12903,7 +13564,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12931,7 +13594,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12959,7 +13624,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -12987,7 +13654,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13015,7 +13684,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13043,7 +13714,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13071,7 +13744,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13099,7 +13774,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13127,7 +13804,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13155,7 +13834,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13183,7 +13864,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13211,7 +13894,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13239,7 +13924,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13267,7 +13954,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13295,7 +13984,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13323,7 +14014,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13351,7 +14044,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13379,7 +14074,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13407,7 +14104,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13435,7 +14134,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13463,7 +14164,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13491,7 +14194,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13519,7 +14224,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13547,7 +14254,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13575,7 +14284,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13603,7 +14314,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13631,7 +14344,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13659,7 +14374,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13687,7 +14404,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13715,7 +14434,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13743,7 +14464,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13771,7 +14494,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13799,7 +14524,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13827,7 +14554,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13855,7 +14584,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13883,7 +14614,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13911,7 +14644,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13939,7 +14674,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13967,7 +14704,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -13995,7 +14734,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14023,7 +14764,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14051,7 +14794,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14079,7 +14824,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14107,7 +14854,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14135,7 +14884,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14163,7 +14914,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14191,7 +14944,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14219,7 +14974,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14247,7 +15004,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14275,7 +15034,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14303,7 +15064,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14331,7 +15094,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14359,7 +15124,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14423,7 +15190,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14487,7 +15256,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14551,7 +15322,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14615,7 +15388,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14679,7 +15454,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14743,7 +15520,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14807,7 +15586,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14871,7 +15652,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -14971,7 +15754,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15071,7 +15856,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15171,7 +15958,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15271,7 +16060,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15380,7 +16171,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15489,7 +16282,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15598,7 +16393,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15707,8 +16504,10 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_EulerEditorCurves:
-  - curve:
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15736,7 +16535,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15764,7 +16565,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15792,7 +16595,9 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15820,7 +16625,9 @@ AnimationClip:
     path: ArmsPayDay
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15848,7 +16655,9 @@ AnimationClip:
     path: ArmsPayDay
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15876,7 +16685,9 @@ AnimationClip:
     path: ArmsPayDay
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15904,7 +16715,9 @@ AnimationClip:
     path: ArmsPayDay/Neutre
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15932,7 +16745,9 @@ AnimationClip:
     path: ArmsPayDay/Neutre
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15960,7 +16775,9 @@ AnimationClip:
     path: ArmsPayDay/Neutre
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -15988,7 +16805,9 @@ AnimationClip:
     path: Reference
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16016,7 +16835,9 @@ AnimationClip:
     path: Reference
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16044,7 +16865,9 @@ AnimationClip:
     path: Reference
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16072,7 +16895,9 @@ AnimationClip:
     path: Reference/FpsArms
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16100,7 +16925,9 @@ AnimationClip:
     path: Reference/FpsArms
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16128,7 +16955,9 @@ AnimationClip:
     path: Reference/FpsArms
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16156,7 +16985,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16184,7 +17015,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16212,7 +17045,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16276,7 +17111,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16340,7 +17177,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16404,7 +17243,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16468,7 +17309,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16532,7 +17375,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16596,7 +17441,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16624,7 +17471,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16652,7 +17501,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16680,7 +17531,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16744,7 +17597,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16808,7 +17663,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16872,7 +17729,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16900,7 +17759,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16928,7 +17789,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16956,7 +17819,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -16984,7 +17849,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17012,7 +17879,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17040,7 +17909,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17068,7 +17939,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17096,7 +17969,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17124,7 +17999,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17152,7 +18029,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17180,7 +18059,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17208,7 +18089,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17236,7 +18119,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17264,7 +18149,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17292,7 +18179,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17320,7 +18209,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17348,7 +18239,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17376,7 +18269,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17404,7 +18299,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17432,7 +18329,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17460,7 +18359,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17488,7 +18389,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17516,7 +18419,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17544,7 +18449,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17572,7 +18479,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17600,7 +18509,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17628,7 +18539,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17656,7 +18569,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17684,7 +18599,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17712,7 +18629,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17740,7 +18659,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17768,7 +18689,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17796,7 +18719,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17824,7 +18749,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17852,7 +18779,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17880,7 +18809,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17908,7 +18839,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17936,7 +18869,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17964,7 +18899,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -17992,7 +18929,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18020,7 +18959,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18048,7 +18989,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18076,7 +19019,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18104,7 +19049,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18132,7 +19079,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18160,7 +19109,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18188,7 +19139,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18216,7 +19169,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18244,7 +19199,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18272,7 +19229,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18300,7 +19259,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18328,7 +19289,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18356,7 +19319,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18384,7 +19349,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18412,7 +19379,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18440,7 +19409,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18468,7 +19439,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18496,7 +19469,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18524,7 +19499,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18552,7 +19529,9 @@ AnimationClip:
     path: Reference/FpsArms/LeftShoulder/LeftArm/LeftForeArm_/LeftForearmRoll/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18580,7 +19559,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18608,7 +19589,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18636,7 +19619,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18700,7 +19685,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18755,7 +19742,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18810,7 +19799,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18883,7 +19874,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -18956,7 +19949,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19029,7 +20024,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19057,7 +20054,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19085,7 +20084,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19113,7 +20114,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19204,7 +20207,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19259,7 +20264,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19350,7 +20357,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19378,7 +20387,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19406,7 +20417,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19434,7 +20447,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19462,7 +20477,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19490,7 +20507,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19518,7 +20537,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19546,7 +20567,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19574,7 +20597,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19602,7 +20627,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19630,7 +20657,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19658,7 +20687,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19686,7 +20717,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndex4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19714,7 +20747,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19742,7 +20777,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19770,7 +20807,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19798,7 +20837,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19826,7 +20867,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19854,7 +20897,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19882,7 +20927,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19910,7 +20957,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19938,7 +20987,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19966,7 +21017,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -19994,7 +21047,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20022,7 +21077,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddle4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20050,7 +21107,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20078,7 +21137,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20106,7 +21167,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20134,7 +21197,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20162,7 +21227,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20190,7 +21257,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20218,7 +21287,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20246,7 +21317,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20274,7 +21347,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20302,7 +21377,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20330,7 +21407,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20358,7 +21437,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinky4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20386,7 +21467,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20414,7 +21497,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20442,7 +21527,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20470,7 +21557,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20498,7 +21587,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20526,7 +21617,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20554,7 +21647,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20582,7 +21677,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20610,7 +21707,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20638,7 +21737,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20666,7 +21767,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20694,7 +21797,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRing4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20722,7 +21827,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20750,7 +21857,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20778,7 +21887,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20806,7 +21917,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20834,7 +21947,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20862,7 +21977,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20890,7 +22007,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20918,7 +22037,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20946,7 +22067,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -20974,7 +22097,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -21002,7 +22127,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -21030,7 +22157,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumb4
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -21058,7 +22187,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -21086,7 +22217,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -21114,7 +22247,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -21142,7 +22277,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -21170,7 +22307,9 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife/Knife
     classID: 4
     script: {fileID: 0}
-  - curve:
+    flags: 16
+  - serializedVersion: 2
+    curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
@@ -21198,6 +22337,7 @@ AnimationClip:
     path: Reference/FpsArms/RightShoulder/RightArm/RightForeArm_/RightForearmRoll/RightHand/Knife/Knife
     classID: 4
     script: {fileID: 0}
+    flags: 16
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: GlobalSettings
+  m_EditorClassIdentifier: Assembly-CSharp:AssetOptimizerPro:AssetOptimizerSettings
+  autoScanOnImport: 0
+  showNotifications: 1
+  createBackupByDefault: 1
+  logDetailedInfo: 0
+  excludePackages: 1
+  excludePlugins: 1
+  minAssetSizeKB: 10
+  excludeFoldersText: 
+  maxConcurrentOperations: 3
+  pauseBetweenOperationsMs: 100
+  useProgressBar: 1
+  backupRetentionDays: 30
+  compressBackups: 0
+  optimizeBeforeBuild: 0
+  buildOptimizationProfile: Mobile
+  showBuildDialog: 1
+  autoOptimizeOnImport: 0
+  importOptimizationDelay: 5
+  enableScheduledOptimization: 0
+  scheduledScanInterval: 24
+  lastScheduledScan: 8/1/2025 2:51:36 PM

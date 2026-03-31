@@ -1,4 +1,4 @@
-﻿using MFPS.ThirdPerson;
+using MFPS.ThirdPerson;
 using UnityEngine;
 #if UNITY_POST_PROCESSING_STACK_V2
 using UnityEngine.Rendering.PostProcessing;
@@ -6,7 +6,7 @@ using UnityEngine.Rendering.PostProcessing;
 
 public class bl_CameraViewSettings : ScriptableObject
 {
-    public MFPSGamePlayerView gamePlayerView = MFPSGamePlayerView.FirstPersonDefault;
+    public MFPSGamePlayerView gamePlayerView = MFPSGamePlayerView.ThirdPersonOnly;
     public KeyCode SwitchViewKey = KeyCode.P;
     [LovattoToogle] public bool detectCameraCollision = true;
     [LovattoToogle] public bool persistViewModeChanges = true;
@@ -25,11 +25,16 @@ public class bl_CameraViewSettings : ScriptableObject
     {
         get
         {
+            if (gamePlayerView == MFPSGamePlayerView.ThirdPersonOnly)
+                return MPlayerViewMode.ThirdPerson;
+            if (gamePlayerView == MFPSGamePlayerView.FirstPersonOnly)
+                return MPlayerViewMode.FirstPerson;
+
             if (persistViewModeChanges)
             {
                 m_currentViewMode = (MPlayerViewMode)PlayerPrefs.GetInt(PersistViewModeKey, 2);
             }
-            if(m_currentViewMode == MPlayerViewMode.None)
+            if (m_currentViewMode == MPlayerViewMode.None)
             {
                 if (gamePlayerView == MFPSGamePlayerView.FirstPersonDefault || gamePlayerView == MFPSGamePlayerView.FirstPersonOnly)
                     return MPlayerViewMode.FirstPerson;
@@ -39,6 +44,17 @@ public class bl_CameraViewSettings : ScriptableObject
         }
         set
         {
+            if (gamePlayerView == MFPSGamePlayerView.ThirdPersonOnly)
+            {
+                m_currentViewMode = MPlayerViewMode.ThirdPerson;
+                return;
+            }
+            if (gamePlayerView == MFPSGamePlayerView.FirstPersonOnly)
+            {
+                m_currentViewMode = MPlayerViewMode.FirstPerson;
+                return;
+            }
+
             m_currentViewMode = value;
             if (persistViewModeChanges) PlayerPrefs.SetInt(PersistViewModeKey, (int)m_currentViewMode);
         }

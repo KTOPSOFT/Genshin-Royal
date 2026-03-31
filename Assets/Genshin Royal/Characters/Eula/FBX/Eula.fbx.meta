@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects: {}
   materials:
-    materialImportMode: 2
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -13,11 +13,13 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
-    optimizeGameObjects: 0
+    optimizeGameObjects: 1
     removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Inbetween bone rotation
+      in configuration does not match rotation in animation file:\n\t'\u8155\u6369.L'
+      : rotation error = 2.776918 deg\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -36,15 +38,15 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 3
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1
     importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
@@ -72,7 +74,7 @@ ModelImporter:
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 3
+    tangentImportMode: 2
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
@@ -841,7 +843,8 @@ ModelImporter:
     - name: "\u5934\u99702_3_1"
       parentName: "\u5934\u99702_2_1"
       position: {x: -2.4680047e-10, y: 0.00018051466, z: -1.6763806e-10}
-      rotation: {x: -0.00000013411156, y: -0.0000002682225, z: -0.00000053830325, w: 1}
+      rotation: {x: -0.00000013411156, y: -0.0000002682225, z: -0.00000053830325,
+        w: 1}
       scale: {x: 1, y: 1.0000004, z: 1.0000001}
     - name: "\u5934\u99702_4_1"
       parentName: "\u5934\u99702_3_1"
@@ -1446,12 +1449,14 @@ ModelImporter:
     - name: "\u62AB\u98CE1_2_1"
       parentName: "\u62AB\u98CE1_1_1"
       position: {x: -1.11758706e-10, y: 0.0009903412, z: -2.7939676e-10}
-      rotation: {x: -0.00000010430812, y: 0.000000029802287, z: 0.000000029802322, w: 1}
+      rotation: {x: -0.00000010430812, y: 0.000000029802287, z: 0.000000029802322,
+        w: 1}
       scale: {x: 0.9999997, y: 1.0000008, z: 1.0000013}
     - name: "\u62AB\u98CE1_3_1"
       parentName: "\u62AB\u98CE1_2_1"
       position: {x: 7.4505804e-11, y: 0.0009903398, z: -5.5879353e-11}
-      rotation: {x: 0.00000008940696, y: -0.000000059604602, z: 0.000000014901151, w: 1}
+      rotation: {x: 0.00000008940696, y: -0.000000059604602, z: 0.000000014901151,
+        w: 1}
       scale: {x: 1.0000001, y: 1.0000012, z: 1.0000008}
     - name: "\u62AB\u98CE1_4_1"
       parentName: "\u62AB\u98CE1_3_1"
@@ -1461,7 +1466,8 @@ ModelImporter:
     - name: "\u62AB\u98CE1_5_1"
       parentName: "\u62AB\u98CE1_4_1"
       position: {x: -1.862645e-10, y: 0.0009903408, z: 1.11758706e-10}
-      rotation: {x: -0.000000119209275, y: -0.000000059604638, z: 0.000000029802319, w: 1}
+      rotation: {x: -0.000000119209275, y: -0.000000059604638, z: 0.000000029802319,
+        w: 1}
       scale: {x: 1.0000001, y: 1.0000012, z: 1.0000014}
     - name: "\u62AB\u98CE1_6_1"
       parentName: "\u62AB\u98CE1_5_1"
@@ -1476,7 +1482,8 @@ ModelImporter:
     - name: "\u62AB\u98CE1_8_1"
       parentName: "\u62AB\u98CE1_7_1"
       position: {x: -7.4505804e-11, y: 0.0009903397, z: 2.6077032e-10}
-      rotation: {x: -0.000000029802326, y: 0.000000119209275, z: -0.00000013411042, w: 1}
+      rotation: {x: -0.000000029802326, y: 0.000000119209275, z: -0.00000013411042,
+        w: 1}
       scale: {x: 1.0000001, y: 1.0000011, z: 1.0000013}
     - name: "\u62AB\u98CE1_9_1"
       parentName: "\u62AB\u98CE1_8_1"

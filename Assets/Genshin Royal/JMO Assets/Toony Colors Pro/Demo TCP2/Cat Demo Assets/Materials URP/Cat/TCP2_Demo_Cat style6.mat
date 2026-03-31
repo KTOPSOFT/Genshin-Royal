@@ -2,20 +2,28 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TCP2_Demo_Cat style6
   m_Shader: {fileID: 4800000, guid: 41d07659f9985bc41bbea0c9e6da4b01, type: 3}
-  m_ShaderKeywords: TCP2_OUTLINE_TEXTURED _EMISSION _RECEIVE_SHADOWS_OFF
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - TCP2_UV_NORMALS_FULL
+  - _RECEIVE_SHADOWS_OFF
+  m_InvalidKeywords:
+  - TCP2_OUTLINE_TEXTURED
+  - _EMISSION
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -79,6 +87,7 @@ Material:
         m_Texture: {fileID: 2800000, guid: 60573ff7f60d93e4e88c01310ba411e5, type: 3}
         m_Scale: {x: 6, y: 6}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -150,3 +159,4 @@ Material:
     - _SketchColor: {r: 0.8, g: 0.41497326, b: 0, a: 1}
     - _SpecColor: {r: 0.32352942, g: 0.32352942, b: 0.32352942, a: 1}
     - _SpecularColor: {r: 0.32156864, g: 0.32156864, b: 0.32156864, a: 1}
+  m_BuildTextureStacks: []

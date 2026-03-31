@@ -365,7 +365,8 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
     }
 
     /// <summary>
-    /// 
+    /// Quick Play: join a random open room, or create one if none exist (see OnJoinRandomFailed).
+    /// Requires PUN to be on the master server and ready; JoinRandomRoom otherwise fails locally with no callback.
     /// </summary>
     public void AutoMatch()
     {
@@ -376,10 +377,38 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
         StartCoroutine(DoSearch());
         IEnumerator DoSearch()
         {
-            //active the search match UI
             bl_LobbyUI.Instance.SeekingMatchUI.SetActive(true);
-            yield return new WaitForSeconds(3);
-            PhotonNetwork.JoinRandomRoom();
+
+            const float timeoutSeconds = 45f;
+            float elapsed = 0f;
+            while (elapsed < timeoutSeconds)
+            {
+                if (PhotonNetwork.IsConnectedAndReady &&
+                    PhotonNetwork.NetworkingClient.Server == ServerConnection.MasterServer)
+                {
+                    break;
+                }
+                elapsed += Time.unscaledDeltaTime;
+                yield return null;
+            }
+
+            if (!PhotonNetwork.IsConnectedAndReady ||
+                PhotonNetwork.NetworkingClient.Server != ServerConnection.MasterServer)
+            {
+                Debug.LogWarning($"[Quick Play] Not ready for matchmaking (state: {PhotonNetwork.NetworkClientState}). Check Photon AppId and connection.");
+                isSeekingMatch = false;
+                bl_LobbyUI.Instance.SeekingMatchUI.SetActive(false);
+                yield break;
+            }
+
+            if (!PhotonNetwork.JoinRandomRoom())
+            {
+                Debug.LogWarning("[Quick Play] JoinRandomRoom was not sent. Are you already inside a room?");
+                isSeekingMatch = false;
+                bl_LobbyUI.Instance.SeekingMatchUI.SetActive(false);
+                yield break;
+            }
+
             isSeekingMatch = false;
             bl_LobbyUI.Instance.SeekingMatchUI.SetActive(false);
         }
@@ -390,21 +419,50 @@ public class bl_Lobby : bl_PhotonHelper, IConnectionCallbacks, ILobbyCallbacks, 
     /// </summary>
     public void OnNoRoomsToJoin(short returnCode, string message)
     {
-        Debug.Log("No games to join found on matchmaking, creating one.");
-        //create random room properties
-        int scid = Random.Range(0, bl_GameData.Instance.AllScenes.Count);
-        var mapInfo = bl_GameData.Instance.AllScenes[scid];
+        Debug.Log($"No games to join found on matchmaking, creating one. ({returnCode}: {message})");
 
-        var allModes = mapInfo.GetAllowedGameModes(GameModes);
-        int modeRandom = Random.Range(0, allModes.Length);
-        var gameMode = allModes[modeRandom];
+        if (bl_GameData.Instance.AllScenes == null || bl_GameData.Instance.AllScenes.Count == 0)
+        {
+            Debug.LogError("[Quick Play] GameData has no maps in AllScenes.");
+            return;
+        }
+        if (GameModes == null || GameModes.Length == 0)
+        {
+            Debug.LogError("[Quick Play] No enabled game modes in GameData.");
+            return;
+        }
 
-        int maxPlayersRandom = Random.Range(0, gameMode.maxPlayers.Length);
-        int timeRandom = Random.Range(0, gameMode.timeLimits.Length);
-        int randomGoal = Random.Range(0, gameMode.GameGoalsOptions.Length);
+        MapInfo mapInfo = null;
+        GameModeSettings gameMode = null;
+        for (int attempt = 0; attempt < 48; attempt++)
+        {
+            int scid = Random.Range(0, bl_GameData.Instance.AllScenes.Count);
+            var candidate = bl_GameData.Instance.AllScenes[scid];
+            var modes = candidate.GetAllowedGameModes(GameModes);
+            if (modes == null || modes.Length == 0) continue;
+
+            mapInfo = candidate;
+            gameMode = modes[Random.Range(0, modes.Length)];
+            break;
+        }
+
+        if (mapInfo == null || gameMode == null)
+        {
+            Debug.LogError("[Quick Play] No map has an allowed game mode. Check each map's blocked modes list and enabled game modes in GameData.");
+            return;
+        }
+
+        int mpLen = Mathf.Max(1, gameMode.maxPlayers.Length);
+        int tlLen = Mathf.Max(1, gameMode.timeLimits.Length);
+        int gLen = Mathf.Max(1, gameMode.GameGoalsOptions.Length);
+        int maxPlayersRandom = Random.Range(0, mpLen);
+        int timeRandom = Random.Range(0, tlLen);
+        int randomGoal = Random.Range(0, gLen);
 
         var roomInfo = new MFPSRoomInfo();
-        roomInfo.roomName = string.Format("[PUBLIC] {0}{1}", bl_PhotonNetwork.NickName.Substring(0, 2), Random.Range(0, 9999));
+        string nick = string.IsNullOrEmpty(bl_PhotonNetwork.NickName) ? "P" : bl_PhotonNetwork.NickName;
+        string nickPrefix = nick.Length >= 2 ? nick.Substring(0, 2) : nick;
+        roomInfo.roomName = string.Format("[PUBLIC] {0}{1}", nickPrefix, Random.Range(0, 9999));
         roomInfo.gameMode = gameMode.gameMode;
         roomInfo.time = gameMode.timeLimits[timeRandom];
         roomInfo.sceneName = mapInfo.RealSceneName;

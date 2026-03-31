@@ -5,7 +5,7 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects: {}
   materials:
-    materialImportMode: 2
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -13,7 +13,7 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
-    optimizeGameObjects: 0
+    optimizeGameObjects: 1
     removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
@@ -36,15 +36,15 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 3
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1
     importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
@@ -72,7 +72,7 @@ ModelImporter:
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 3
+    tangentImportMode: 2
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
@@ -691,7 +691,8 @@ ModelImporter:
     - name: "\u5E36_3_1.R"
       parentName: "\u5E36_2_1.R"
       position: {x: -1.6763806e-10, y: 0.00057090394, z: 0}
-      rotation: {x: -0.00000020489098, y: -0.00000023841847, z: 0.00000024959434, w: 1}
+      rotation: {x: -0.00000020489098, y: -0.00000023841847, z: 0.00000024959434,
+        w: 1}
       scale: {x: 0.9999999, y: 0.99999976, z: 0.9999999}
     - name: "\u5E36_4_1.R"
       parentName: "\u5E36_3_1.R"
@@ -706,7 +707,8 @@ ModelImporter:
     - name: "\u5E36_6_1.R"
       parentName: "\u5E36_5_1.R"
       position: {x: -4.6566126e-11, y: 0.00057090644, z: 7.4505804e-11}
-      rotation: {x: 0.00000012293455, y: 0.000000089406846, z: -0.000000044703473, w: 1}
+      rotation: {x: 0.00000012293455, y: 0.000000089406846, z: -0.000000044703473,
+        w: 1}
       scale: {x: 0.9999998, y: 1.0000002, z: 1.0000004}
     - name: "\u5E36_7_1.R"
       parentName: "\u5E36_6_1.R"
@@ -781,7 +783,8 @@ ModelImporter:
     - name: "\u524D\u64FA_1_1"
       parentName: "\u524D\u64FA_0_1"
       position: {x: -1.1549295e-12, y: 0.00041831404, z: -7.229526e-11}
-      rotation: {x: 0.00000035762784, y: -0.00000017881392, z: -0.0000000074505797, w: 1}
+      rotation: {x: 0.00000035762784, y: -0.00000017881392, z: -0.0000000074505797,
+        w: 1}
       scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
     - name: "\u524D\u64FA_2_1"
       parentName: "\u524D\u64FA_1_1"
@@ -791,7 +794,8 @@ ModelImporter:
     - name: "\u524D\u64FA_3_1"
       parentName: "\u524D\u64FA_2_1"
       position: {x: -0, y: 0.00041831384, z: 2.0882061e-10}
-      rotation: {x: 0.00000027567145, y: 0.000000059604602, z: -0.000000014901198, w: 1}
+      rotation: {x: 0.00000027567145, y: 0.000000059604602, z: -0.000000014901198,
+        w: 1}
       scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
     - name: "\u524D\u64FA_4_1"
       parentName: "\u524D\u64FA_3_1"
@@ -801,7 +805,8 @@ ModelImporter:
     - name: "\u524D\u64FA_5_1"
       parentName: "\u524D\u64FA_4_1"
       position: {x: -0, y: 0.00041831477, z: 5.980905e-11}
-      rotation: {x: 0.000000052154025, y: -0.0000000596046, z: 0.000000014901159, w: 1}
+      rotation: {x: 0.000000052154025, y: -0.0000000596046, z: 0.000000014901159,
+        w: 1}
       scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
     - name: "\u524D\u64FA_6_1"
       parentName: "\u524D\u64FA_5_1"
@@ -1006,7 +1011,8 @@ ModelImporter:
     - name: "\u8033_4_1.L"
       parentName: "\u8033_3_1.L"
       position: {x: 0.0000000017508864, y: 0.0001998428, z: 6.3329936e-10}
-      rotation: {x: -0.00000024773212, y: -0.00000071525534, z: -0.0000007236367, w: 1}
+      rotation: {x: -0.00000024773212, y: -0.00000071525534, z: -0.0000007236367,
+        w: 1}
       scale: {x: 1.0000001, y: 1, z: 1.0000004}
     - name: "\u8033_5_1.L"
       parentName: "\u8033_4_1.L"
@@ -1106,7 +1112,8 @@ ModelImporter:
     - name: "\u624B\u6369.R"
       parentName: "\u3072\u3058.R"
       position: {x: 3.7252902e-11, y: 0.0011560547, z: 0.0000000013610285}
-      rotation: {x: 0.00000019522845, y: 0.000000054768847, z: -0.000000041959947, w: 1}
+      rotation: {x: 0.00000019522845, y: 0.000000054768847, z: -0.000000041959947,
+        w: 1}
       scale: {x: 1.0000002, y: 1.0000004, z: 1}
     - name: "\u624B\u9996.R"
       parentName: "\u624B\u6369.R"
@@ -1346,7 +1353,8 @@ ModelImporter:
     - name: "\u624B\u6369.L"
       parentName: "\u3072\u3058.L"
       position: {x: 9.3132255e-12, y: 0.0011560539, z: -0.000000001196102}
-      rotation: {x: -0.00000030361102, y: -0.0000002236792, z: 0.000000057833866, w: 1}
+      rotation: {x: -0.00000030361102, y: -0.0000002236792, z: 0.000000057833866,
+        w: 1}
       scale: {x: 1.0000001, y: 1, z: 1}
     - name: "\u624B\u9996.L"
       parentName: "\u624B\u6369.L"

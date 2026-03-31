@@ -104,7 +104,7 @@ MonoBehaviour:
   - NiceName: Level Manager
     KeyName: LM
     LastVersion: 1.5.1
-    Info: {fileID: 0}
+    Info: {fileID: 11400000, guid: 2f928140c6f8a9249a4607ef8a2662dc, type: 2}
     CurrentVersion: --
     MinVersion: 1.5.0
     FolderName: LevelSystem
